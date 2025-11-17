@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   description: "四川悠悠米科技有限公司专注于AI技术深度应用，为医疗健康、电力工程、智能设计、政务公文等领域提供智能化解决方案，助力政企客户实现智能化转型。",
   keywords: ["AI", "人工智能", "智能化转型", "医疗AI", "电力AI", "智能设计", "政务数字化", "悠悠米", "UUMI"],
   authors: [{ name: "UUMI Technology" }],
+  icons: {
+    icon: "/uumi-logo.png",
+    shortcut: "/uumi-logo.png",
+    apple: "/uumi-logo.png",
+  },
   openGraph: {
     title: "UUMI 悠悠米科技 - 让智能带来全新视界",
     description: "专注AI技术深度应用，助力政企客户智能化转型",
