@@ -46,6 +46,9 @@ import {
 import companyDataZh from "@/data/companyData.json";
 import companyDataEn from "@/data/companyData.en.json";
 
+// 定义类型
+type CompanyData = typeof companyDataZh;
+
 // 图标映射
 const iconMap = {
   Sparkles, Cpu, HeartPulse, Zap, PenTool, FileText, 
@@ -208,7 +211,7 @@ const Navigation = memo(() => {
 Navigation.displayName = "Navigation";
 
 // Hero Section
-const HeroSection = memo(({ companyData }: { companyData: any }) => (
+const HeroSection = memo(({ companyData }: { companyData: CompanyData }) => (
   <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 bg-gradient-to-br from-green-50 via-white to-blue-50">
     {/* 科技感背景装饰 */}
     <div className="absolute inset-0 tech-grid opacity-50" />
@@ -263,7 +266,7 @@ const HeroSection = memo(({ companyData }: { companyData: any }) => (
 HeroSection.displayName = "HeroSection";
 
 // Focus Areas Section
-const FocusAreasSection = memo(({ companyData }: { companyData: any }) => (
+const FocusAreasSection = memo(({ companyData }: { companyData: CompanyData }) => (
   <Section className="bg-gradient-to-b from-white to-green-50">
     <motion.div {...fadeInUp} className="text-center mb-16">
       <Badge className="mb-4 gradient-secondary text-white border-0 shadow-md">
@@ -315,7 +318,7 @@ const FocusAreasSection = memo(({ companyData }: { companyData: any }) => (
 FocusAreasSection.displayName = "FocusAreasSection";
 
 // About Section
-const AboutSection = memo(({ companyData }: { companyData: any }) => (
+const AboutSection = memo(({ companyData }: { companyData: CompanyData }) => (
   <Section id="about" className="bg-white">
     <div className="max-w-4xl mx-auto">
       <motion.div {...fadeInUp} className="text-center">
@@ -354,7 +357,7 @@ const AboutSection = memo(({ companyData }: { companyData: any }) => (
 AboutSection.displayName = "AboutSection";
 
 // Core Advantages Section
-const AdvantagesSection = memo(({ companyData }: { companyData: any }) => (
+const AdvantagesSection = memo(({ companyData }: { companyData: CompanyData }) => (
   <Section className="bg-gradient-to-b from-green-50 to-white">
     <motion.div {...fadeInUp} className="text-center mb-16">
       <Badge className="mb-4 gradient-accent text-white border-0 shadow-md">
@@ -405,7 +408,7 @@ const AdvantagesSection = memo(({ companyData }: { companyData: any }) => (
 AdvantagesSection.displayName = "AdvantagesSection";
 
 // Team Section
-const TeamSection = memo(({ companyData }: { companyData: any }) => (
+const TeamSection = memo(({ companyData }: { companyData: CompanyData }) => (
   <Section id="team" className="bg-white">
     <motion.div {...fadeInUp} className="text-center mb-16">
       <Badge className="mb-4 gradient-primary text-white border-0 shadow-md">
@@ -441,7 +444,6 @@ const TeamSection = memo(({ companyData }: { companyData: any }) => (
               </CardDescription>
             </CardHeader>
             <CardContent>
-              <p className="text-base text-gray-700 mb-3 font-medium">{member.education}</p>
               <p className="text-sm text-gray-600 mb-4 leading-relaxed font-medium">{member.background}</p>
               <div className="flex flex-wrap gap-2 justify-center">
                 {member.expertise.slice(0, 3).map((skill, idx) => (
@@ -460,7 +462,7 @@ const TeamSection = memo(({ companyData }: { companyData: any }) => (
 TeamSection.displayName = "TeamSection";
 
 // Case Studies Section
-const CaseStudiesSection = memo(({ companyData }: { companyData: any }) => (
+const CaseStudiesSection = memo(({ companyData }: { companyData: CompanyData }) => (
   <Section id="cases" className="bg-gradient-to-b from-white to-green-50">
     <motion.div {...fadeInUp} className="text-center mb-16">
       <Badge className="mb-4 gradient-secondary text-white border-0 shadow-md">
@@ -574,7 +576,7 @@ const CaseStudiesSection = memo(({ companyData }: { companyData: any }) => (
 CaseStudiesSection.displayName = "CaseStudiesSection";
 
 // Contact Section
-const ContactSection = memo(({ companyData }: { companyData: any }) => (
+const ContactSection = memo(({ companyData }: { companyData: CompanyData }) => (
   <Section id="contact" className="bg-white">
     <motion.div {...fadeInUp} className="text-center mb-16">
       <Badge className="mb-4 gradient-primary text-white border-0 shadow-md">
@@ -692,7 +694,7 @@ const ContactSection = memo(({ companyData }: { companyData: any }) => (
 ContactSection.displayName = "ContactSection";
 
 // Footer
-const Footer = memo(({ companyData }: { companyData: any }) => (
+const Footer = memo(({ companyData }: { companyData: CompanyData }) => (
   <footer className="bg-gray-900 text-white py-12">
     <div className="container mx-auto max-w-7xl px-4">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
@@ -757,10 +759,10 @@ Footer.displayName = "Footer";
 // Main Page Component
 export default function HomePage() {
   const { language } = useLanguage();
-  const [companyData, setCompanyData] = useState(companyDataZh);
+  const [companyData, setCompanyData] = useState<CompanyData>(companyDataZh);
 
   useEffect(() => {
-    setCompanyData(language === 'zh' ? companyDataZh : companyDataEn);
+    setCompanyData(language === 'zh' ? companyDataZh : (companyDataEn as unknown as CompanyData));
   }, [language]);
 
   return (

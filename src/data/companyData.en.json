@@ -87,6 +87,7 @@
         "title": "Source Quality Control · Direct Procurement Advantage",
         "titleEn": "Source Quality Control",
         "avatar": "/images/team/supply-chain.jpg",
+        "education": "Professional Team",
         "background": "Deep cultivation in Sichuan agricultural product producing areas for many years, establishing long-term cooperative relationships with quality farms",
         "achievements": [
           "Established supplier network covering core producing areas in Sichuan",
@@ -101,6 +102,7 @@
         "title": "International Certification · Three-Stage Quality Control",
         "titleEn": "Quality Management",
         "avatar": "/images/team/qa-team.jpg",
+        "education": "Certified Quality Professionals",
         "background": "Professional quality inspection team with HACCP and ISO 22000 system certification management experience",
         "achievements": [
           "Established and executed three-stage quality control system",
@@ -115,6 +117,7 @@
         "title": "International Trade · Professional Service",
         "titleEn": "International Trade",
         "avatar": "/images/team/export-team.jpg",
+        "education": "International Trade Specialists",
         "background": "Professional foreign trade team proficient in international trade rules and customs clearance procedures",
         "achievements": [
           "Proficient in international trade terms such as FOB/CIF",
@@ -129,6 +132,7 @@
         "title": "AI R&D · Technology Innovation",
         "titleEn": "Technology Innovation",
         "avatar": "/images/team/rd-team.jpg",
+        "education": "AI & Computer Science Experts",
         "background": "AI R&D team with machine vision and deep learning technology background",
         "achievements": [
           "Led Morchella-AI automated grading system development",
