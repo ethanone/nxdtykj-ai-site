@@ -1,7 +1,8 @@
 "use client";
 
-import { memo, useState } from "react";
+import { memo, useState, useEffect } from "react";
 import Image from "next/image";
+import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
 import {
   Card,
@@ -40,8 +41,10 @@ import {
   Target,
   Lightbulb,
   Shield,
+  Languages,
 } from "lucide-react";
-import companyData from "@/data/companyData.json";
+import companyDataZh from "@/data/companyData.json";
+import companyDataEn from "@/data/companyData.en.json";
 
 // 图标映射
 const iconMap = {
@@ -80,12 +83,12 @@ const Section = memo(({ children, className = "", id }: {
 ));
 Section.displayName = "Section";
 
-// Logo 组件 - 使用真实的 UUMI logo 图片
-const UUMILogo = memo(({ className = "w-12 h-12" }: { className?: string }) => (
+// Logo 组件 - 使用真实的 SCXSL logo 图片
+const SCXSLLogo = memo(({ className = "w-12 h-12" }: { className?: string }) => (
   <div className={className}>
     <Image
-      src="/uumi-logo.png"
-      alt="UUMI Logo"
+      src="/scxsl-logo.png"
+      alt="SCXSL Logo"
       width={48}
       height={48}
       className="w-full h-full object-contain"
@@ -93,19 +96,20 @@ const UUMILogo = memo(({ className = "w-12 h-12" }: { className?: string }) => (
     />
   </div>
 ));
-UUMILogo.displayName = "UUMILogo";
+SCXSLLogo.displayName = "SCXSLLogo";
 
 // 导航栏组件
 const Navigation = memo(() => {
   const [isOpen, setIsOpen] = useState(false);
+  const { language, toggleLanguage, t } = useLanguage();
 
   const navItems = [
-    { label: "首页", href: "#home" },
-    { label: "关于UUMI", href: "#about" },
-    { label: "核心团队", href: "#team" },
-    { label: "优势与服务", href: "#services" },
-    { label: "成功案例", href: "#cases" },
-    { label: "联系我们", href: "#contact" },
+    { label: t("首页", "Home"), href: "#home" },
+    { label: t("关于SCXSL", "About"), href: "#about" },
+    { label: t("核心团队", "Team"), href: "#team" },
+    { label: t("优势与服务", "Services"), href: "#services" },
+    { label: t("成功案例", "Cases"), href: "#cases" },
+    { label: t("联系我们", "Contact"), href: "#contact" },
   ];
 
   return (
@@ -116,15 +120,15 @@ const Navigation = memo(() => {
           <a href="#home" className="flex items-center space-x-3 group">
             {/* Logo 图标 */}
             <div className="relative">
-              <UUMILogo className="w-12 h-12 transition-transform duration-300 group-hover:scale-110 group-hover:drop-shadow-lg" />
+              <SCXSLLogo className="w-12 h-12 transition-transform duration-300 group-hover:scale-110 group-hover:drop-shadow-lg" />
             </div>
             
             {/* Logo 文字 */}
             <div className="relative">
               <h1 className="text-2xl font-black tracking-tight bg-gradient-to-r from-blue-600 to-blue-500 bg-clip-text text-transparent">
-                UUMI
+                SCXSL
               </h1>
-              <p className="text-xs text-gray-600 hidden md:block font-semibold tracking-wide">悠悠米科技</p>
+              <p className="text-xs text-gray-600 hidden md:block font-semibold tracking-wide">数创先锋</p>
               {/* 底部装饰线 */}
               <div className="absolute -bottom-0.5 left-0 w-0 h-0.5 bg-gradient-to-r from-blue-600 to-blue-400 group-hover:w-full transition-all duration-300" />
             </div>
@@ -136,13 +140,22 @@ const Navigation = memo(() => {
               <a
                 key={item.href}
                 href={item.href}
-                className="text-sm font-medium text-gray-700 hover:text-purple-600 transition-colors"
+                className="text-sm font-medium text-gray-700 hover:text-green-600 transition-colors"
               >
                 {item.label}
               </a>
             ))}
+            {/* Language Toggle */}
+            <button
+              onClick={toggleLanguage}
+              className="flex items-center space-x-1 text-sm font-medium text-gray-700 hover:text-green-600 transition-colors"
+              title={t("切换语言", "Switch Language")}
+            >
+              <Languages className="w-4 h-4" />
+              <span>{language === 'zh' ? 'EN' : '中文'}</span>
+            </button>
             <Button className="gradient-primary text-white shadow-lg hover:shadow-xl transition-shadow">
-              开始咨询
+              {t("索取样品", "Request Sample")}
             </Button>
           </div>
 
@@ -167,13 +180,24 @@ const Navigation = memo(() => {
                 key={item.href}
                 href={item.href}
                 onClick={() => setIsOpen(false)}
-                className="block py-3 text-gray-700 hover:text-purple-600 hover:bg-purple-50 rounded-lg px-4 transition-colors"
+                className="block py-3 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg px-4 transition-colors"
               >
                 {item.label}
               </a>
             ))}
+            {/* Mobile Language Toggle */}
+            <button
+              onClick={() => {
+                toggleLanguage();
+                setIsOpen(false);
+              }}
+              className="flex items-center space-x-2 py-3 px-4 text-gray-700 hover:text-green-600 hover:bg-green-50 rounded-lg transition-colors w-full"
+            >
+              <Languages className="w-5 h-5" />
+              <span>{t("切换为英文", "Switch to Chinese")}</span>
+            </button>
             <Button className="w-full mt-4 gradient-primary text-white">
-              开始咨询
+              {t("索取样品", "Request Sample")}
             </Button>
           </motion.div>
         )}
@@ -184,37 +208,37 @@ const Navigation = memo(() => {
 Navigation.displayName = "Navigation";
 
 // Hero Section
-const HeroSection = memo(() => (
-  <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 bg-gradient-to-br from-purple-50 via-white to-pink-50">
+const HeroSection = memo(({ companyData }: { companyData: any }) => (
+  <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20 bg-gradient-to-br from-green-50 via-white to-blue-50">
     {/* 科技感背景装饰 */}
     <div className="absolute inset-0 tech-grid opacity-50" />
     
     {/* 浮动光点装饰 */}
-    <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-purple-500 rounded-full animate-pulse opacity-60" />
-    <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-pink-500 rounded-full animate-pulse opacity-50" style={{ animationDelay: '1s' }} />
-    <div className="absolute bottom-1/3 left-1/2 w-2.5 h-2.5 bg-purple-400 rounded-full animate-pulse opacity-40" style={{ animationDelay: '2s' }} />
-    <div className="absolute top-2/3 right-1/4 w-1 h-1 bg-cyan-400 rounded-full animate-pulse opacity-70" style={{ animationDelay: '1.5s' }} />
+    <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-green-500 rounded-full animate-pulse opacity-60" />
+    <div className="absolute top-1/3 right-1/3 w-1.5 h-1.5 bg-blue-500 rounded-full animate-pulse opacity-50" style={{ animationDelay: '1s' }} />
+    <div className="absolute bottom-1/3 left-1/2 w-2.5 h-2.5 bg-green-400 rounded-full animate-pulse opacity-40" style={{ animationDelay: '2s' }} />
+    <div className="absolute top-2/3 right-1/4 w-1 h-1 bg-emerald-400 rounded-full animate-pulse opacity-70" style={{ animationDelay: '1.5s' }} />
     
     {/* 渐变光晕装饰 */}
-    <div className="absolute top-0 left-0 w-96 h-96 bg-purple-300 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-float" />
-    <div className="absolute bottom-0 right-0 w-96 h-96 bg-pink-300 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-float" style={{ animationDelay: '2s' }} />
+    <div className="absolute top-0 left-0 w-96 h-96 bg-green-300 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-float" />
+    <div className="absolute bottom-0 right-0 w-96 h-96 bg-blue-300 rounded-full mix-blend-multiply filter blur-3xl opacity-10 animate-float" style={{ animationDelay: '2s' }} />
     
     <div className="relative z-10 container mx-auto max-w-7xl px-4 text-center">
       <motion.div {...fadeInUp}>
-        <p className="mb-8 text-purple-600 font-bold text-lg md:text-xl">
-          成立于 2023 · AI 智能化转型专家
+        <p className="mb-8 text-green-600 font-bold text-lg md:text-xl">
+          {companyData.companyInfo.founded && `成立于 ${companyData.companyInfo.founded} · `}{companyData.companyInfo.tagline || "创新科技领航者"}
         </p>
         
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-8 leading-tight tech-title">
-          <span className="tech-text-animated">让智能带来全新视界</span>
+          <span className="tech-text-animated">{companyData.companyInfo.slogan}</span>
         </h1>
         
         <p className="text-xl md:text-2xl text-gray-800 mb-6 max-w-3xl mx-auto font-semibold leading-relaxed">
-          四川悠悠米科技有限公司专注于将人工智能技术深度应用于解决实际产业痛点
+          {companyData.companyInfo.name}专注于{companyData.companyInfo.focus || "创新科技解决方案"}
         </p>
         
         <p className="text-lg md:text-xl text-gray-700 mb-10 max-w-2xl mx-auto font-medium leading-relaxed">
-          通过融合 AI 技术与行业知识，显著提升效率、优化流程、降低成本，最终解放生产力
+          {companyData.aboutUs.mission}
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
@@ -239,8 +263,8 @@ const HeroSection = memo(() => (
 HeroSection.displayName = "HeroSection";
 
 // Focus Areas Section
-const FocusAreasSection = memo(() => (
-  <Section className="bg-gradient-to-b from-white to-purple-50">
+const FocusAreasSection = memo(({ companyData }: { companyData: any }) => (
+  <Section className="bg-gradient-to-b from-white to-green-50">
     <motion.div {...fadeInUp} className="text-center mb-16">
       <Badge className="mb-4 gradient-secondary text-white border-0 shadow-md">
         核心服务板块
@@ -291,15 +315,15 @@ const FocusAreasSection = memo(() => (
 FocusAreasSection.displayName = "FocusAreasSection";
 
 // About Section
-const AboutSection = memo(() => (
+const AboutSection = memo(({ companyData }: { companyData: any }) => (
   <Section id="about" className="bg-white">
     <div className="max-w-4xl mx-auto">
       <motion.div {...fadeInUp} className="text-center">
         <Badge className="mb-4 gradient-primary text-white border-0 shadow-md">
-          关于 UUMI
+          关于 SCXSL
         </Badge>
         <h2 className="text-3xl md:text-5xl font-bold mb-6">
-          专注<span className="gradient-text">AI技术深度应用</span>
+          专注<span className="gradient-text">{companyData.companyInfo.focus || "创新科技"}</span>
         </h2>
         <div className="space-y-6 text-gray-800 leading-relaxed text-left text-xl font-medium">
           {companyData.aboutUs.intro.map((paragraph, index) => (
@@ -309,14 +333,14 @@ const AboutSection = memo(() => (
         
         <div className="mt-10 space-y-6">
           <div className="flex items-start space-x-4 text-left">
-            <CheckCircle2 className="w-7 h-7 text-purple-600 flex-shrink-0 mt-1" />
+            <CheckCircle2 className="w-7 h-7 text-green-600 flex-shrink-0 mt-1" />
             <div>
               <h4 className="font-bold text-gray-900 mb-2 text-lg">核心目标</h4>
               <p className="text-gray-800 font-medium text-base leading-relaxed">{companyData.aboutUs.mission}</p>
             </div>
           </div>
           <div className="flex items-start space-x-4 text-left">
-            <Target className="w-7 h-7 text-pink-600 flex-shrink-0 mt-1" />
+            <Target className="w-7 h-7 text-blue-600 flex-shrink-0 mt-1" />
             <div>
               <h4 className="font-bold text-gray-900 mb-2 text-lg">企业愿景</h4>
               <p className="text-gray-800 font-medium text-base leading-relaxed">{companyData.aboutUs.vision}</p>
@@ -330,14 +354,14 @@ const AboutSection = memo(() => (
 AboutSection.displayName = "AboutSection";
 
 // Core Advantages Section
-const AdvantagesSection = memo(() => (
-  <Section className="bg-gradient-to-b from-purple-50 to-white">
+const AdvantagesSection = memo(({ companyData }: { companyData: any }) => (
+  <Section className="bg-gradient-to-b from-green-50 to-white">
     <motion.div {...fadeInUp} className="text-center mb-16">
       <Badge className="mb-4 gradient-accent text-white border-0 shadow-md">
         核心竞争力
       </Badge>
       <h2 className="text-3xl md:text-5xl font-bold mb-6">
-        为什么选择<span className="gradient-text">UUMI</span>？
+        为什么选择<span className="gradient-text">SCXSL</span>？
       </h2>
     </motion.div>
 
@@ -350,7 +374,7 @@ const AdvantagesSection = memo(() => (
             {...fadeInUp}
             transition={{ delay: index * 0.1 }}
           >
-            <Card className="tech-card h-full hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-purple-200 tech-grid">
+            <Card className="tech-card h-full hover:shadow-2xl transition-all duration-300 border-2 border-transparent hover:border-green-200 tech-grid">
               <CardHeader>
                 <div className="flex items-center space-x-4 mb-4">
                   <div className="w-14 h-14 rounded-xl gradient-primary flex items-center justify-center shadow-lg relative group-hover:shadow-purple-500/50 transition-shadow">
@@ -365,7 +389,7 @@ const AdvantagesSection = memo(() => (
                 <p className="text-gray-800 leading-relaxed mb-6 font-medium text-base">{advantage.description}</p>
                 <div className="flex flex-wrap gap-2">
                   {advantage.highlights.map((highlight, idx) => (
-                    <Badge key={idx} variant="secondary" className="bg-purple-100 text-purple-700 hover:bg-purple-200 text-sm font-medium">
+                    <Badge key={idx} variant="secondary" className="bg-green-100 text-green-700 hover:bg-green-200 text-sm font-medium">
                       {highlight}
                     </Badge>
                   ))}
@@ -381,7 +405,7 @@ const AdvantagesSection = memo(() => (
 AdvantagesSection.displayName = "AdvantagesSection";
 
 // Team Section
-const TeamSection = memo(() => (
+const TeamSection = memo(({ companyData }: { companyData: any }) => (
   <Section id="team" className="bg-white">
     <motion.div {...fadeInUp} className="text-center mb-16">
       <Badge className="mb-4 gradient-primary text-white border-0 shadow-md">
@@ -404,15 +428,15 @@ const TeamSection = memo(() => (
         >
           <Card className="tech-card group hover:shadow-2xl transition-all duration-300 text-center h-full">
             <CardHeader>
-              <div className="w-32 h-32 mx-auto mb-4 rounded-full gradient-primary p-1 shadow-xl relative group-hover:shadow-purple-500/50 transition-shadow">
+              <div className="w-32 h-32 mx-auto mb-4 rounded-full gradient-primary p-1 shadow-xl relative group-hover:shadow-green-500/50 transition-shadow">
                 <div className="w-full h-full rounded-full bg-white flex items-center justify-center">
-                  <Users className="w-16 h-16 text-purple-600 group-hover:scale-110 transition-transform" />
+                  <Users className="w-16 h-16 text-green-600 group-hover:scale-110 transition-transform" />
                 </div>
                 {/* 旋转光环 */}
-                <div className="absolute inset-0 rounded-full border-2 border-purple-400/30 opacity-0 group-hover:opacity-100 transition-opacity animate-spin-slow" />
+                <div className="absolute inset-0 rounded-full border-2 border-green-400/30 opacity-0 group-hover:opacity-100 transition-opacity animate-spin-slow" />
               </div>
               <CardTitle className="text-2xl font-bold mb-2">{member.name}</CardTitle>
-              <CardDescription className="text-purple-600 font-bold text-base">
+              <CardDescription className="text-green-600 font-bold text-base">
                 {member.title}
               </CardDescription>
             </CardHeader>
@@ -436,8 +460,8 @@ const TeamSection = memo(() => (
 TeamSection.displayName = "TeamSection";
 
 // Case Studies Section
-const CaseStudiesSection = memo(() => (
-  <Section id="cases" className="bg-gradient-to-b from-white to-purple-50">
+const CaseStudiesSection = memo(({ companyData }: { companyData: any }) => (
+  <Section id="cases" className="bg-gradient-to-b from-white to-green-50">
     <motion.div {...fadeInUp} className="text-center mb-16">
       <Badge className="mb-4 gradient-secondary text-white border-0 shadow-md">
         成功案例
@@ -459,7 +483,7 @@ const CaseStudiesSection = memo(() => (
             {...fadeInUp}
             transition={{ delay: index * 0.1 }}
           >
-            <Card className="tech-card group hover:shadow-2xl transition-all duration-300 h-full overflow-hidden border-2 border-transparent hover:border-purple-200">
+            <Card className="tech-card group hover:shadow-2xl transition-all duration-300 h-full overflow-hidden border-2 border-transparent hover:border-green-200">
               {/* Header with Icon - 科技感顶部条 */}
               <div 
                 className="h-1 relative overflow-hidden"
@@ -550,7 +574,7 @@ const CaseStudiesSection = memo(() => (
 CaseStudiesSection.displayName = "CaseStudiesSection";
 
 // Contact Section
-const ContactSection = memo(() => (
+const ContactSection = memo(({ companyData }: { companyData: any }) => (
   <Section id="contact" className="bg-white">
     <motion.div {...fadeInUp} className="text-center mb-16">
       <Badge className="mb-4 gradient-primary text-white border-0 shadow-md">
@@ -567,7 +591,7 @@ const ContactSection = memo(() => (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
       {/* Contact Info */}
       <motion.div {...fadeInUp} className="space-y-6">
-        <Card className="border-2 border-purple-200 hover:shadow-xl transition-shadow">
+        <Card className="border-2 border-green-200 hover:shadow-xl transition-shadow">
           <CardContent className="pt-6">
             <div className="space-y-6">
               <div className="flex items-start space-x-4">
@@ -576,7 +600,7 @@ const ContactSection = memo(() => (
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">联系电话</h4>
-                  <a href={`tel:${companyData.contact.phone}`} className="text-purple-600 hover:text-purple-700 font-medium">
+                  <a href={`tel:${companyData.contact.phone}`} className="text-green-600 hover:text-green-700 font-medium">
                     {companyData.contact.phone}
                   </a>
                   <p className="text-sm text-gray-500 mt-1">{companyData.contact.workingHours}</p>
@@ -589,7 +613,7 @@ const ContactSection = memo(() => (
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 mb-1">电子邮箱</h4>
-                  <a href={`mailto:${companyData.contact.email}`} className="text-purple-600 hover:text-purple-700 font-medium">
+                  <a href={`mailto:${companyData.contact.email}`} className="text-green-600 hover:text-green-700 font-medium">
                     {companyData.contact.email}
                   </a>
                 </div>
@@ -610,13 +634,13 @@ const ContactSection = memo(() => (
           </CardContent>
         </Card>
 
-        <Card className="bg-gradient-to-br from-purple-500 to-pink-500 text-white border-0 shadow-xl">
+        <Card className="bg-gradient-to-br from-green-600 to-blue-600 text-white border-0 shadow-xl">
           <CardContent className="pt-6">
-            <h3 className="text-2xl font-bold mb-4">让智能带来全新视界</h3>
+            <h3 className="text-2xl font-bold mb-4">{companyData.companyInfo.slogan}</h3>
             <p className="mb-6 opacity-90">
-              我们看到了AI的蓬勃发展，也看到了当下AI发展的困境。我们期待与各行各业深度融合，协作走向新的未来。
+              {companyData.aboutUs.vision}
             </p>
-            <Button size="lg" className="w-full bg-white text-purple-600 hover:bg-gray-100 shadow-lg">
+            <Button size="lg" className="w-full bg-white text-green-600 hover:bg-gray-100 shadow-lg">
               预约咨询
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
@@ -629,11 +653,11 @@ const ContactSection = memo(() => (
         <h3 className="text-2xl font-bold mb-6">我们的核心价值观</h3>
         <div className="space-y-4">
           {companyData.aboutUs.values.map((value, index) => (
-            <Card key={index} className="border-2 border-gray-200 hover:border-purple-300 hover:shadow-lg transition-all">
+            <Card key={index} className="border-2 border-gray-200 hover:border-green-300 hover:shadow-lg transition-all">
               <CardContent className="pt-6">
                 <div className="flex items-center space-x-4">
-                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-purple-100 to-pink-100 flex items-center justify-center">
-                    <Lightbulb className="w-5 h-5 text-purple-600" />
+                  <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-green-100 to-blue-100 flex items-center justify-center">
+                    <Lightbulb className="w-5 h-5 text-green-600" />
                   </div>
                   <h4 className="text-lg font-semibold text-gray-900">{value}</h4>
                 </div>
@@ -642,20 +666,20 @@ const ContactSection = memo(() => (
           ))}
         </div>
 
-        <Card className="mt-6 bg-purple-50 border-2 border-purple-200">
+        <Card className="mt-6 bg-green-50 border-2 border-green-200">
           <CardContent className="pt-6">
             <h4 className="font-semibold text-gray-900 mb-4">行业专家顾问</h4>
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
-                <CheckCircle2 className="w-4 h-4 text-purple-600" />
+                <CheckCircle2 className="w-4 h-4 text-green-600" />
                 <span className="text-sm text-gray-700">{companyData.team.teamSize.advisors.medical}</span>
               </div>
               <div className="flex items-center space-x-2">
-                <CheckCircle2 className="w-4 h-4 text-purple-600" />
+                <CheckCircle2 className="w-4 h-4 text-green-600" />
                 <span className="text-sm text-gray-700">{companyData.team.teamSize.advisors.power}</span>
               </div>
               <div className="flex items-center space-x-2">
-                <CheckCircle2 className="w-4 h-4 text-purple-600" />
+                <CheckCircle2 className="w-4 h-4 text-green-600" />
                 <span className="text-sm text-gray-700">{companyData.team.teamSize.advisors.design}</span>
               </div>
             </div>
@@ -668,22 +692,22 @@ const ContactSection = memo(() => (
 ContactSection.displayName = "ContactSection";
 
 // Footer
-const Footer = memo(() => (
+const Footer = memo(({ companyData }: { companyData: any }) => (
   <footer className="bg-gray-900 text-white py-12">
     <div className="container mx-auto max-w-7xl px-4">
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
         <div>
           <div className="flex items-center space-x-3 mb-4">
             <Image
-              src="/uumi-logo.png"
-              alt="UUMI Logo"
+              src="/scxsl-logo.png"
+              alt="SCXSL Logo"
               width={44}
               height={44}
               className="object-contain"
             />
             <div>
-              <h3 className="text-xl font-black tracking-tight">UUMI</h3>
-              <p className="text-sm text-gray-400 font-medium">悠悠米科技</p>
+              <h3 className="text-xl font-black tracking-tight">SCXSL</h3>
+              <p className="text-sm text-gray-400 font-medium">数创先锋</p>
             </div>
           </div>
           <p className="text-gray-400 text-sm mb-4">
@@ -732,17 +756,24 @@ Footer.displayName = "Footer";
 
 // Main Page Component
 export default function HomePage() {
+  const { language } = useLanguage();
+  const [companyData, setCompanyData] = useState(companyDataZh);
+
+  useEffect(() => {
+    setCompanyData(language === 'zh' ? companyDataZh : companyDataEn);
+  }, [language]);
+
   return (
     <main className="min-h-screen">
       <Navigation />
-      <HeroSection />
-      <FocusAreasSection />
-      <AboutSection />
-      <AdvantagesSection />
-      <TeamSection />
-      <CaseStudiesSection />
-      <ContactSection />
-      <Footer />
+      <HeroSection companyData={companyData} />
+      <FocusAreasSection companyData={companyData} />
+      <AboutSection companyData={companyData} />
+      <AdvantagesSection companyData={companyData} />
+      <TeamSection companyData={companyData} />
+      <CaseStudiesSection companyData={companyData} />
+      <ContactSection companyData={companyData} />
+      <Footer companyData={companyData} />
     </main>
   );
 }

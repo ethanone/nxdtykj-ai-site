@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { cn } from "@/lib/utils";
+import { LanguageProvider } from "@/contexts/LanguageContext";
 
 // 配置 Inter 字体 - 优化加载
 const inter = Inter({ 
@@ -12,20 +13,20 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "UUMI 悠悠米科技 - 让智能带来全新视界",
-  description: "四川悠悠米科技有限公司专注于AI技术深度应用，为医疗健康、电力工程、智能设计、政务公文等领域提供智能化解决方案，助力政企客户实现智能化转型。",
-  keywords: ["AI", "人工智能", "智能化转型", "医疗AI", "电力AI", "智能设计", "政务数字化", "悠悠米", "UUMI"],
-  authors: [{ name: "UUMI Technology" }],
+  title: "新石龙科技 - 优质羊肚菌全球贸易商 | 三阶段品控 · AI智能分级",
+  description: "四川新石龙科技专注优质干羊肚菌国际贸易，拥有SC、HACCP、ISO 22000国际认证，创新三阶段品控体系，1000吨年产能稳定供应，正在研发Morchella-AI智能分级系统，为全球客户提供100%透明可靠的高端农产品。",
+  keywords: ["羊肚菌", "干羊肚菌", "Morel Mushrooms", "新石龙科技", "农产品出口", "食品认证", "HACCP", "ISO 22000", "AI分级", "三阶段品控", "国际贸易", "四川农产品"],
+  authors: [{ name: "New Shi Long Technology" }],
   icons: {
-    icon: "/uumi-logo.png",
-    shortcut: "/uumi-logo.png",
-    apple: "/uumi-logo.png",
+    icon: "/scxsl-logo.png",
+    shortcut: "/scxsl-logo.png",
+    apple: "/scxsl-logo.png",
   },
   openGraph: {
-    title: "UUMI 悠悠米科技 - 让智能带来全新视界",
-    description: "专注AI技术深度应用，助力政企客户智能化转型",
-    url: "https://www.uumi.net",
-    siteName: "UUMI 悠悠米科技",
+    title: "新石龙科技 - 自然珍品，重塑于诚信与科技",
+    description: "优质干羊肚菌全球贸易商 | SC/HACCP/ISO认证 | 三阶段品控 | AI智能分级 | 1000吨年产能",
+    url: "https://www.newshilong.com",
+    siteName: "新石龙科技",
     locale: "zh_CN",
     type: "website",
   },
@@ -42,9 +43,9 @@ export default function RootLayout({
       <head>
         {/* 优化加载性能 */}
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
-        <meta name="theme-color" content="#8B5CF6" />
+        <meta name="theme-color" content="#059669" />
         {/* DNS 预连接 */}
-        <link rel="dns-prefetch" href="https://www.uumi.net" />
+        <link rel="dns-prefetch" href="https://www.newshilong.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>
@@ -52,7 +53,9 @@ export default function RootLayout({
         "min-h-screen bg-background font-sans antialiased",
         inter.variable
       )}>
-        {children}
+        <LanguageProvider>
+          {children}
+        </LanguageProvider>
       </body>
     </html>
   );

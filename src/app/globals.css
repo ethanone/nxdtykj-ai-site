@@ -49,31 +49,31 @@
   --card-foreground: #1F2937;
   --popover: #FFFFFF;
   --popover-foreground: #1F2937;
-  --primary: #8B5CF6; /* 优雅的紫色 */
+  --primary: #059669; /* 专业的深绿色 - 代表自然、健康 */
   --primary-foreground: #FFFFFF;
-  --secondary: #EC4899; /* 温暖的粉色 */
+  --secondary: #1E40AF; /* 专业的深蓝色 - 代表信任、可靠 */
   --secondary-foreground: #FFFFFF;
   --muted: #F9FAFB;
   --muted-foreground: #6B7280;
-  --accent: #F59E0B; /* 金色点缀 */
+  --accent: #F59E0B; /* 金色点缀 - 代表优质、高端 */
   --accent-foreground: #FFFFFF;
   --destructive: #EF4444;
   --border: #E5E7EB;
   --input: #E5E7EB;
-  --ring: #8B5CF6;
-  --chart-1: #8B5CF6; /* 紫色 */
-  --chart-2: #EC4899; /* 粉色 */
+  --ring: #059669;
+  --chart-1: #059669; /* 深绿 */
+  --chart-2: #1E40AF; /* 深蓝 */
   --chart-3: #F59E0B; /* 金色 */
-  --chart-4: #3B82F6; /* 蓝色 */
-  --chart-5: #10B981; /* 绿色 */
+  --chart-4: #3B82F6; /* 亮蓝 */
+  --chart-5: #10B981; /* 翠绿 */
   --sidebar: #FFFFFF;
   --sidebar-foreground: #1F2937;
-  --sidebar-primary: #8B5CF6;
+  --sidebar-primary: #059669;
   --sidebar-primary-foreground: #FFFFFF;
   --sidebar-accent: #F9FAFB;
   --sidebar-accent-foreground: #1F2937;
   --sidebar-border: #E5E7EB;
-  --sidebar-ring: #8B5CF6;
+  --sidebar-ring: #059669;
   --background: #FFFFFF;
   --foreground: #1F2937;
 }
@@ -123,10 +123,10 @@
     --popover: 0 0% 100%;
     --popover-foreground: 217 33% 17%;
 
-    --primary: 258 90% 66%; /* #8B5CF6 优雅紫色 */
+    --primary: 160 84% 39%; /* #059669 专业深绿 */
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 330 81% 60%; /* #EC4899 温暖粉色 */
+    --secondary: 224 76% 40%; /* #1E40AF 专业深蓝 */
     --secondary-foreground: 0 0% 100%;
 
     --muted: 220 14% 98%; /* #F9FAFB */
@@ -186,21 +186,21 @@
   }
 }
 
-/* Custom Gradients for UUMI */
+/* Custom Gradients for New Shi Long Tech */
 .gradient-primary {
-  background: linear-gradient(135deg, #8B5CF6 0%, #6366F1 100%);
+  background: linear-gradient(135deg, #059669 0%, #10B981 100%);
 }
 
 .gradient-secondary {
-  background: linear-gradient(135deg, #EC4899 0%, #F59E0B 100%);
+  background: linear-gradient(135deg, #1E40AF 0%, #3B82F6 100%);
 }
 
 .gradient-accent {
-  background: linear-gradient(135deg, #F59E0B 0%, #EF4444 100%);
+  background: linear-gradient(135deg, #F59E0B 0%, #FBBF24 100%);
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 50%, #F59E0B 100%);
+  background: linear-gradient(135deg, #059669 0%, #1E40AF 50%, #F59E0B 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -328,12 +328,12 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(135deg, #8B5CF6 0%, #EC4899 100%);
+  background: linear-gradient(135deg, #059669 0%, #10B981 100%);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(135deg, #7C3AED 0%, #DB2777 100%);
+  background: linear-gradient(135deg, #047857 0%, #059669 100%);
 }
 
 /* 科技感效果 */
@@ -343,7 +343,7 @@ html {
   position: relative;
   border: 1px solid transparent;
   background: linear-gradient(white, white) padding-box,
-              linear-gradient(135deg, #8B5CF6, #EC4899, #F59E0B) border-box;
+              linear-gradient(135deg, #059669, #1E40AF, #F59E0B) border-box;
 }
 
 .tech-border::before {
@@ -352,7 +352,7 @@ html {
   inset: -2px;
   border-radius: inherit;
   padding: 2px;
-  background: linear-gradient(135deg, #8B5CF6, #EC4899, #F59E0B);
+  background: linear-gradient(135deg, #059669, #1E40AF, #F59E0B);
   -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
   -webkit-mask-composite: xor;
   mask-composite: exclude;
@@ -376,9 +376,9 @@ html {
   left: 0;
   width: 4px;
   height: 4px;
-  background: linear-gradient(135deg, #8B5CF6, #EC4899);
+  background: linear-gradient(135deg, #059669, #10B981);
   border-radius: 50%;
-  box-shadow: 0 0 10px rgba(139, 92, 246, 0.6);
+  box-shadow: 0 0 10px rgba(5, 150, 105, 0.6);
   animation: tech-pulse 2s ease-in-out infinite;
 }
 
@@ -395,15 +395,15 @@ html {
   left: 0;
   width: 60px;
   height: 3px;
-  background: linear-gradient(90deg, #8B5CF6, #EC4899, transparent);
+  background: linear-gradient(90deg, #059669, #10B981, transparent);
   border-radius: 2px;
 }
 
 /* 科技感网格背景 */
 .tech-grid {
   background-image: 
-    linear-gradient(rgba(139, 92, 246, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(139, 92, 246, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(5, 150, 105, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(5, 150, 105, 0.03) 1px, transparent 1px);
   background-size: 20px 20px;
 }
 
@@ -411,11 +411,11 @@ html {
 .tech-text-animated {
   background: linear-gradient(
     90deg,
-    #8B5CF6 0%,
-    #EC4899 25%,
-    #F59E0B 50%,
-    #EC4899 75%,
-    #8B5CF6 100%
+    #059669 0%,
+    #10B981 25%,
+    #1E40AF 50%,
+    #10B981 75%,
+    #059669 100%
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
@@ -438,7 +438,7 @@ html {
   left: -2px;
   right: -2px;
   bottom: -2px;
-  background: linear-gradient(135deg, #8B5CF6, #EC4899, #F59E0B);
+  background: linear-gradient(135deg, #059669, #1E40AF, #10B981);
   border-radius: inherit;
   opacity: 0;
   transition: opacity 0.3s;
