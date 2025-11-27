@@ -241,7 +241,7 @@ const SolutionsSection = memo(({ companyData, uiText }: { companyData: CompanyDa
       initial="initial"
       whileInView="animate"
       viewport={{ once: true, margin: "-50px" }}
-      className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8"
+      className="grid grid-cols-1 sm:grid-cols-3 gap-6 md:gap-8"
     >
       {companyData.focusAreas.map((area, index) => {
         const Icon = iconMap[area.icon as keyof typeof iconMap] || Shield;
