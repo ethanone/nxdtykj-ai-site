@@ -1,223 +1,88 @@
-# 知象数据官网 | Zhixiang Data Official Website
+# 🚀 Modern Company Website Template
 
 <div align="center">
 
-**为知识产权全链条激活数据价值**  
-*Activating Data Value for the Entire IP Chain*
+**高质量企业官网模板 | Professional Company Website Template**  
+*Built with Next.js 16, React 19, TypeScript & Tailwind CSS 4*
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.3.5-black?logo=next.js)](https://nextjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-16.0-black?logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.0-blue?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
 
-[📧 联系我们](mailto:contact@zhixiang-data.com)
-
 </div>
 
 ---
 
-## 📖 关于 | About
+## ✨ 特性
 
-知象数据专注于为知识产权全产业链提供专业的数据服务和智能解决方案。我们深耕知识产权领域多年,深刻理解政府机关、保护中心、产业园区、代理机构等不同主体的数据需求与业务痛点。
-
-**Zhixiang Data** specializes in providing professional data services and intelligent solutions for the entire intellectual property industry chain. With years of experience in the IP field, we deeply understand the data needs and business pain points of different entities.
-
----
-
-## ✨ 核心特色 | Key Features
-
-### 🌍 **中英文双语支持 | Bilingual Support**
-- 一键切换中英文界面
-- 完整的双语内容支持
-- One-click language switching
-- Complete bilingual content support
-
-### 🎨 **极简专业设计 | Minimalist Professional Design**
-- 黑白灰为主的专业商务风格
-- 精致的边框与卡片设计
-- 流畅的动画效果
-- 现代化的用户体验
-
-### 💎 **完整内容架构 | Complete Content Structure**
-- **首页第一屏** | Hero Section - 品牌介绍与核心价值
-- **首页第二屏** | Solutions - 关键场景解决方案
-- **首页第三屏** | Data System - 数据管理体系
-- **首页第四屏** | Testimonials & Contact - 客户见证与联系方式
+- ✅ **响应式设计** - 完美适配手机、平板、桌面
+- ✅ **多语言支持** - 内置中英文切换
+- ✅ **SEO 优化** - 完整的元数据配置
+- ✅ **性能优化** - 极致的加载速度
+- ✅ **动画效果** - Framer Motion 流畅动画
+- ✅ **TypeScript** - 完整类型支持
 
 ---
 
-## 🚀 快速开始 | Quick Start
-
-### 环境要求 | Prerequisites
-- Node.js 18.0 或更高版本 | Node.js 18.0 or higher
-- npm 或 yarn 或 pnpm
-
-### 安装 | Installation
+## 🚀 快速开始
 
 ```bash
-# 克隆仓库 | Clone repository
-git clone https://github.com/ethanone/zxsk-ai-site.git
-cd zxsk-ai-site
-
-# 安装依赖 | Install dependencies
+# 安装依赖
 npm install
 
-# 启动开发服务器 | Start development server
+# 启动开发服务器
 npm run dev
-```
 
-访问 `http://localhost:3000` 查看网站 | Visit `http://localhost:3000` to view the site
-
-### 构建生产版本 | Build for Production
-
-```bash
-# 构建 | Build
+# 构建生产版本
 npm run build
-
-# 启动生产服务器 | Start production server
-npm start
 ```
 
 ---
 
-## 📁 项目结构 | Project Structure
+## 📁 项目结构
 
 ```
-zxsk-ai-site/
-├── public/                    # 静态资源
-│   ├── favorite.png          # 公司Logo
-│   └── images/               # 图片资源
 ├── src/
-│   ├── app/                  # Next.js App Router
-│   │   ├── layout.tsx        # 根布局 + SEO配置
-│   │   ├── page.tsx          # 主页面组件 (4个屏幕)
-│   │   └── globals.css       # 全局样式
-│   ├── components/           # UI组件库
-│   │   └── ui/               # shadcn/ui组件
-│   ├── contexts/             # React上下文
-│   │   └── LanguageContext.tsx  # 语言切换上下文
-│   ├── data/                 # 数据文件
-│   │   ├── companyData.json     # 中文数据
-│   │   ├── companyData.en.json  # 英文数据
-│   │   ├── uiText.json          # 中文UI文本
-│   │   └── uiText.en.json       # 英文UI文本
-│   └── lib/                  # 工具函数
-└── package.json              # 项目配置
+│   ├── app/              # Next.js App Router
+│   ├── components/       # 可复用组件
+│   ├── data/            # **数据文件（修改这里）**
+│   │   ├── companyData.json
+│   │   ├── companyData.en.json
+│   │   ├── uiText.json
+│   │   └── uiText.en.json
+│   └── lib/             # 工具函数
 ```
 
 ---
 
-## 🎯 核心功能 | Core Functions
+## 🎨 定制化
 
-### 关键场景解决方案 | Key Scenario Solutions
-1. **企业集团** | Enterprise Groups - 经营驾驶舱,经营监测,数据合规
-2. **创新平台** | Innovation Platforms - 海外战略,分级预警,异常洞察
-3. **专业服务机构** | Professional Service Firms - 区域分析,案源推荐,智能撰写
+### 1. 修改公司信息
 
-### 数据管理体系 | Data Management System
-- 📊 **数据来源** | Data Sources - 政府权威开放数据库,行业可信加工数据集
-- 🛡️ **数据治理** | Data Governance - 信息安全国标,数据安全国标,可信数据空间
-- 💡 **数据应用** | Data Applications - 数据集,数据报告,数据平台
-- 🔄 **数据协同** | Data Collaboration - 多源一数,上下贯通,安全共享
+编辑 `src/data/companyData.json` 和 `companyData.en.json`
 
----
+### 2. 修改配色
 
-## 🔧 配置与定制 | Configuration & Customization
+编辑 `src/app/globals.css` 中的 CSS 变量
 
-### 修改内容 | Modify Content
-编辑数据文件以更新网站内容 | Edit data files to update website content:
-- **中文**: `src/data/companyData.json` + `src/data/uiText.json`
-- **English**: `src/data/companyData.en.json` + `src/data/uiText.en.json`
+### 3. 更换 Logo
 
-### 修改SEO | Modify SEO
-编辑 `src/app/layout.tsx` 中的 metadata | Edit metadata in `src/app/layout.tsx`
+替换 `public/favorite.png`
+
+### 4. 修改 SEO
+
+编辑 `src/app/layout.tsx` 中的 metadata
 
 ---
 
-## 💼 联系信息 | Contact Information
+## 📖 详细文档
 
-### 知象数据 | Zhixiang Data
-
-- 📧 **邮箱 | Email**: contact@zhixiang-data.com
-- 📍 **地址 | Address**: 中国·四川·成都市成华区一环路电子信息产业大厦
-- 🌐 **网站 | Website**: www.zhixiang-data.com
-- ⏰ **工作时间 | Hours**: 工作日 9:00-18:00 (GMT+8) | Weekdays 9:00-18:00 (GMT+8)
-
-### 服务内容 | Services
-
-✅ 获取数据样本和解决方案演示  
-✅ Get data samples and solution demos
-
-✅ 免费定制行业解决方案  
-✅ Free customized industry solutions
-
-✅ 预约产品演示和试用  
-✅ Schedule product demo and trial
-
-✅ 了解最新产品、功能和资源  
-✅ Learn about latest products, features and resources
+查看 [AI_CUSTOMIZATION_GUIDE.md](./AI_CUSTOMIZATION_GUIDE.md) 了解如何使用 AI 快速定制网站。
 
 ---
 
-## 🎨 配色说明 | Color Scheme
+## 📄 许可证
 
-### 极简专业配色 | Minimalist Professional Colors
-采用黑白灰为主色调，辅以品牌色点缀 | Black, white, and gray as main colors, accented with brand colors
+MIT License
 
-- 🔴 **枣红色** #8B2F2F - 主品牌色 | Primary Brand Color
-- 🟣 **深酱紫** #3D2734 - 辅助色 | Secondary Color
-- 🟡 **淡金色** #C9A86A - 强调/按钮色 | Accent/Button Color
-
----
-
-## 🛠️ 技术栈 | Tech Stack
-
-- **框架 | Framework**: Next.js 15.3.5 (App Router)
-- **UI库 | UI Library**: React 19.0
-- **语言 | Language**: TypeScript 5.0
-- **样式 | Styling**: Tailwind CSS 4.0
-- **组件 | Components**: shadcn/ui + Radix UI
-- **动画 | Animation**: Framer Motion 12.23
-- **图标 | Icons**: Lucide React
-
----
-
-## 📝 开发指南 | Development Guide
-
-### 添加新内容 | Add New Content
-1. 在 `companyData.json` 和 `companyData.en.json` 中添加数据
-2. 网站将自动显示新内容
-3. Add data to both `companyData.json` and `companyData.en.json`
-4. The website will automatically display new content
-
-### 修改页面布局 | Modify Page Layout
-1. 编辑 `src/app/page.tsx` 文件
-2. 调整各个 Section 组件的内容和样式
-3. Edit `src/app/page.tsx` file
-4. Adjust content and styles of Section components
-
----
-
-## 📄 许可证 | License
-
-Copyright © 2025 知象数据 | Zhixiang Data
-
-All rights reserved. 保留所有权利。
-
----
-
-## 🤝 贡献 | Contributing
-
-欢迎提交问题和拉取请求！  
-Issues and pull requests are welcome!
-
----
-
-<div align="center">
-
-**知象数据 - 数据驱动 · 智能决策**  
-**Zhixiang Data - Data-Driven · Intelligent Decisions**
-
-Made with ❤️ in Chengdu, China
-
-</div>

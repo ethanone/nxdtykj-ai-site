@@ -161,7 +161,6 @@
 
 ---
 
-**维护者 | Maintainer:** New Shi Long Technology  
-**项目 | Project:** scysx-ai-site  
-**仓库 | Repository:** https://github.com/ethanone/scysx-ai-site
+**项目 | Project:** company-website-template  
+**仓库 | Repository:** https://github.com/ethanone/zxsk-ai-site
 

@@ -1,8 +1,9 @@
 {
-  "name": "zxsk-ai-site",
-  "version": "3.0.0",
+  "name": "company-website-template",
+  "version": "1.0.0",
   "private": true,
-  "description": "知象数据 (Zhixiang Data) - 为知识产权全链条激活数据价值 | Activating Data Value for the Entire IP Chain",
+  "description": "Modern Company Website Template - Built with Next.js 16, React 19, TypeScript, and Tailwind CSS",
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
