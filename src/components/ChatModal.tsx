@@ -66,16 +66,12 @@ export const ChatModal = memo(({ isOpen, onClose }: ChatModalProps) => {
 
             {/* iframe 容器 */}
             <div className="flex-1 relative">
-              <iframe
-                src="https://udify.app/chatbot/N2kIfrNBa1s9GT7w"
+              <iframe 
+                src="https://cloud.fastgpt.cn/chat/share?shareId=vFX7r3XJIUD215GORKgPMPpB" 
                 className="absolute inset-0 w-full h-full border-0"
-                allow="microphone"
-                title="AI Chat"
-              />
-              {/* 遮盖 Powered by Dify 水印 */}
-              <div 
-                className="absolute top-0 right-0 w-48 h-14 bg-[#1f1f1f] pointer-events-none"
-                aria-hidden="true"
+                allow="clipboard-write"
+                frameBorder="0"
+                title="工时测评助手"
               />
             </div>
           </motion.div>
