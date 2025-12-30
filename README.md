@@ -1,11 +1,11 @@
-# 🤖 工厂AI数字员工
+# 🏢 海南汇融未来有限公司
 
 <div align="center">
 
-**工厂智能化展示平台 | Factory AI Digital Employee Platform**  
-*Built with Next.js 15, React 19, TypeScript & Tailwind CSS 4*
+**专业企业一站式服务平台 | Professional One-Stop Enterprise Service Platform**  
+*Built with Next.js 16, React 19, TypeScript & Tailwind CSS 4*
 
-[![Next.js](https://img.shields.io/badge/Next.js-15.0-black?logo=next.js)](https://nextjs.org/)
+[![Next.js](https://img.shields.io/badge/Next.js-16.0-black?logo=next.js)](https://nextjs.org/)
 [![React](https://img.shields.io/badge/React-19.0-blue?logo=react)](https://reactjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.0-38B2AC?logo=tailwind-css)](https://tailwindcss.com/)
@@ -16,12 +16,12 @@
 
 ## ✨ 特性
 
-- 🎨 **精美展示页面** - 现代化的产品展示设计
-- 🖼️ **Logo展示** - 醒目的品牌Logo居中展示
+- 🎨 **精美展示页面** - 现代化的企业服务展示设计
+- 🖼️ **品牌展示** - 醒目的品牌Logo居中展示
 - 📱 **响应式设计** - 完美适配手机、平板、桌面
 - 🌍 **双语支持** - 中英文一键切换
 - ✨ **流畅动画** - Framer Motion驱动的优雅过渡
-- 🎯 **简洁明了** - 聚焦产品核心价值
+- 🎯 **简洁明了** - 聚焦企业服务核心价值
 
 ---
 
@@ -62,7 +62,7 @@ npm run build
 │   └── lib/
 │       └── utils.ts
 ├── public/
-│   └── favorite.png          # Logo图片
+│   └── images/               # 图片资源
 └── README.md
 ```
 
@@ -70,25 +70,25 @@ npm run build
 
 ## 🎨 定制化
 
-### 1. 修改产品信息
+### 1. 修改公司信息
 
 编辑 `src/data/companyData.json`:
 
 ```json
 {
   "companyInfo": {
-    "name": "工厂AI数字员工",
-    "slogan": "让每个工厂都拥有AI数字员工",
-    "subtitle": "7×24小时智能助手..."
+    "name": "海南汇融未来有限公司",
+    "slogan": "专业企业一站式服务，助力自贸区企业腾飞",
+    "subtitle": "为企业提供全方位的财税咨询..."
   }
 }
 ```
 
 ### 2. 更换Logo
 
-替换 `public/favorite.png` 为您的Logo图片
+替换 `public/images/team/` 目录下的Logo图片
 
-推荐尺寸: 160x160 像素或更大（支持高清屏）
+推荐尺寸: 240x240 像素或更大（支持高清屏）
 
 ### 3. 修改配色方案
 
@@ -111,22 +111,22 @@ npm run build
 ## 🎯 页面结构
 
 ### Hero Section
-- ✅ 大尺寸Logo展示 (160x160)
-- ✅ 产品标题和Slogan
+- ✅ 大尺寸Logo展示
+- ✅ 公司标题和Slogan
 - ✅ 简短描述
 - ✅ CTA按钮
 - ✅ 三个特性卡片
 
 ### 特性卡片
-1. **7×24小时服务** - 全天候智能助手
-2. **快速响应** - 秒级智能回复
-3. **效率提升** - 降本增效40%
+1. **专业财税团队** - 资深注册会计师、税务师
+2. **一站式服务** - 从注册到运营全流程
+3. **自贸区优势** - 深度了解政策红利
 
 ---
 
 ## 🔧 技术栈
 
-- **框架**: Next.js 15 (App Router)
+- **框架**: Next.js 16 (App Router)
 - **UI库**: React 19
 - **语言**: TypeScript 5
 - **样式**: Tailwind CSS 4
@@ -163,7 +163,7 @@ vercel
 
 ## 🎨 设计特点
 
-- **简洁大方** - 突出Logo和核心信息
+- **简洁大方** - 突出品牌和核心信息
 - **视觉层次** - 清晰的信息架构
 - **动画流畅** - 优雅的过渡效果
 - **品牌一致** - 统一的视觉语言
@@ -184,15 +184,32 @@ MIT License
 
 ## 📞 联系方式
 
-- 📧 Email: contact@factory-ai.com
-- 🌐 Website: [工厂AI数字员工](#)
+- 📧 Email: contact@hrwl-ai.com
+- 🌐 Website: [海南汇融未来有限公司](#)
+- 📍 地址: 中国·海南·海口市
+
+---
+
+## 🏢 服务内容
+
+### 核心服务
+- **财税咨询** - 税务筹划、财务分析、成本控制
+- **工商注册** - 公司注册、变更、注销一站式服务
+- **财务代理** - 记账报税、财务分析、报表编制
+- **政策咨询** - 海南自贸区优惠政策咨询
+
+### 服务优势
+- ✅ 专业财税团队
+- ✅ 一站式服务
+- ✅ 自贸区政策优势
+- ✅ 高效响应服务
 
 ---
 
 <div align="center">
 
-**让每个工厂都拥有AI数字员工** 🤖✨
+**专业企业一站式服务，助力自贸区企业腾飞** 🏢✨
 
-Made with ❤️ by Factory AI Team
+Made with ❤️ by 海南汇融未来有限公司
 
 </div>

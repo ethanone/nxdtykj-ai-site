@@ -1,9 +1,13 @@
 {
-  "name": "company-website-template",
+  "name": "hrwl-ai-site",
   "version": "1.0.0",
   "private": true,
-  "description": "Modern Company Website Template - Built with Next.js 16, React 19, TypeScript, and Tailwind CSS",
+  "description": "海南汇融未来有限公司官网 - 专业企业一站式服务平台 - Built with Next.js 16, React 19, TypeScript, and Tailwind CSS",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ethanone/hrwl-ai-site.git"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

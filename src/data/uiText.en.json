@@ -6,75 +6,75 @@
     "services": "Services",
     "cases": "Cases",
     "contact": "Contact",
-    "requestSample": "Start Analysis",
+    "requestSample": "Start Consulting",
     "switchLanguage": "Switch Language",
     "switchToEnglish": "Switch to Chinese"
   },
   "hero": {
     "learnMore": "Learn More",
-    "contactUs": "Start Analysis"
+    "contactUs": "Start Consulting"
   },
   "solutions": {
-    "badge": "Core Analysis Capabilities",
-    "title": "Guide engineers through multi-round interactive dialogue",
-    "titleHighlight": "Precise · Efficient · Professional",
-    "subtitle": "Based on standard methods such as MOST, MTM, and MODAPTS, providing professional analysis services including time study, motion analysis, OEE calculation, and line balancing."
+    "badge": "Core Service Capabilities",
+    "title": "Provide professional one-stop services for enterprises",
+    "titleHighlight": "Professional · Efficient · Reliable",
+    "subtitle": "Provide comprehensive enterprise services including financial & tax consulting, business registration, tax planning, financial agency, etc., helping enterprises operate compliantly, reduce costs and improve efficiency."
   },
   "focusAreas": {
     "badge": "Core Service Areas",
     "title": "Our",
     "titleHighlight": "Expertise",
-    "subtitle": "Committed to providing industrial engineers with precise analysis, calculation, and professional guidance"
+    "subtitle": "Committed to providing professional financial & tax consulting and one-stop services for enterprises"
   },
   "dataSystem": {
-    "badge": "Professional Methodology",
-    "title": "Based on international standard IE methods",
-    "titleHighlight": "Scientifically rigorous · Industry recognized",
-    "subtitle": "Adopt standard methodologies such as MOST, MTM, and MODAPTS, combined with AI technology, to provide accurate and reliable analysis results."
+    "badge": "Professional Service",
+    "title": "Based on Hainan Free Trade Zone policy advantages",
+    "titleHighlight": "Professional Service · Policy Advantages",
+    "subtitle": "Deeply understand various preferential policies of Hainan Free Trade Zone, combined with professional financial & tax knowledge, provide precise and reliable services for enterprises."
   },
   "about": {
     "badge": "About Us",
     "title": "Focus on",
-    "titleHighlight": "Industrial Engineering Intelligent Analysis",
+    "titleHighlight": "One-Stop Enterprise Services",
     "coreGoal": "Core Mission",
     "vision": "Vision"
   },
   "advantages": {
     "badge": "Core Advantages",
     "title": "Why Choose",
-    "titleHighlight": "IE AI Expert"
+    "titleHighlight": "Huirong Future"
   },
   "team": {
-    "badge": "Expert Team",
+    "badge": "Professional Team",
     "title": "Meet Our",
     "titleHighlight": "Professional Team"
   },
   "testimonials": {
     "badge": "Client Cases",
-    "title": "Serving 500+ manufacturing enterprises with IE analysis",
-    "titleHighlight": "Precise calculation · Professional guidance",
-    "subtitle": "We are committed to helping engineers improve analysis efficiency and make scientific decisions through professional industrial engineering methodologies and AI technology."
+    "title": "Serving 500+ enterprises with professional services",
+    "titleHighlight": "Professional Service · Customer Trust",
+    "subtitle": "We are committed to helping enterprises operate compliantly, reduce costs and improve efficiency through professional financial & tax consulting and one-stop services."
   },
   "cases": {
     "badge": "Success Cases",
     "title": "Practical Applications",
-    "titleHighlight": "of Industrial Engineering Analysis",
-    "subtitle": "Deep integration of professional methodologies and AI technology, creating tangible efficiency improvement value for customers",
-    "technologies": "Core Methods",
+    "titleHighlight": "of Enterprise Services",
+    "subtitle": "Deep integration of professional services and policy advantages, creating tangible value for customers",
+    "technologies": "Core Services",
     "painPoint": "Pain Point: ",
     "features": "Core Features",
     "outcome": "Project Results"
   },
   "contact": {
     "badge": "Contact Us",
-    "title": "Get in touch with our industrial engineering experts",
-    "titleHighlight": "Start with a free trial",
+    "title": "Get in touch with our professional consultants",
+    "titleHighlight": "Start with a free consultation",
     "titleSuffix": "",
-    "subtitle": "Apply for free analysis trial, get industrial engineering methodology materials, and learn about latest features and industry cases.",
+    "subtitle": "Apply for free financial & tax consulting, get Free Trade Zone policy materials, and learn about latest services and success cases.",
     "phoneLabel": "Phone",
     "emailLabel": "Email",
     "addressLabel": "Address",
-    "cta": "Start Analysis",
+    "cta": "Start Consulting",
     "values": "Our Core Values",
     "advisors": "Industry Expert Advisors"
   },
@@ -82,12 +82,12 @@
     "quickLinks": "Quick Links",
     "contactInfo": "Contact Information",
     "about": "About Us",
-    "team": "Expert Team",
+    "team": "Professional Team",
     "services": "Services",
     "cases": "Success Cases",
     "contact": "Contact Us",
     "allRightsReserved": "All rights reserved.",
     "foundedIn": "Founded in",
-    "focusOn": "Focus on Industrial Engineering Intelligent Analysis"
+    "focusOn": "Focus on One-Stop Enterprise Services"
   }
 }

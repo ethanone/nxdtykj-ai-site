@@ -33,78 +33,119 @@ export const ProjectModal = memo(({ isOpen, onClose, language }: ProjectModalPro
   }, [onClose]);
 
   const content = language === 'zh' ? {
-    title: "项目简介｜ PM系列智能体-工时定额管理智能体",
+    title: "公司简介｜ 海南汇融未来有限公司",
     sections: [
       {
-        title: "项目简介",
-        content: "工时定额管理智能体是一款面向制造业工程师与精益团队的工业工程智能分析系统。它以标准工时为核心，融合工时测定、动作分析、人机协作、OEE 计算与产线平衡等工业工程方法，通过交互式对话 + 自动分析的方式，帮助企业快速、可靠地完成工序分析与定额设计。",
-        content2: "不同于传统依赖 Excel、经验判断或专家驻场的方式，清风将工业工程的专业逻辑系统化、流程化、智能化，让标准工时和效率分析可复用、可追溯、可评估。"
+        title: "公司简介",
+        content: "海南汇融未来有限公司是一家专注于企业一站式服务的专业机构，深耕海南自贸区多年，为企业提供全方位的财税咨询、工商注册、税务筹划、财务代理等服务。",
+        content2: "我们拥有一支经验丰富的专业团队，包括资深注册会计师、税务师和工商注册顾问，致力于帮助企业合规经营、降低税负、提升效率，助力企业在海南自贸区实现高质量发展。"
       },
       {
         title: "我们解决什么问题？",
-        content: "在实际制造现场，工程师普遍面临以下痛点：",
+        content: "企业在海南自贸区经营过程中，普遍面临以下痛点：",
         list: [
-          "工时测定高度依赖个人经验，结果难以复核",
-          "动作分析、人机分析、OEE、产线平衡分散在不同工具中",
-          "数据不完整、不精确，导致分析结论可信度不足",
-          "分析过程不可追溯，难以形成组织级方法论",
-          "定额制定缺乏统一标准，易引发管理争议"
+          "对自贸区优惠政策了解不足，无法充分利用政策红利",
+          "财税管理不规范，存在税务风险",
+          "工商注册、变更等手续繁琐，耗时耗力",
+          "缺乏专业的财税咨询和筹划指导",
+          "财务代理服务不专业，影响企业合规经营"
         ],
-        footer: "清风的目标，是让工业工程分析从\"经验驱动\"走向\"规则驱动 + 数据驱动\"。"
+        footer: "我们的目标，是让企业从\"经验管理\"走向\"专业服务 + 合规经营\"。"
       },
       {
-        title: "核心能力一览",
+        title: "核心服务能力",
         items: [
           {
-            title: "1️⃣ 标准工时智能测定",
+            title: "1️⃣ 财税咨询与筹划",
             content: [
-              "支持 手工作业 / 人机联合作业 / 自动化设备 / 产线整体作业",
-              "自动引导数据收集、异常值识别与标准工时计算",
-              "在数据不完整时进行专业估计并声明假设，避免反复追问"
+              "提供专业的税务筹划方案，合理利用海南自贸区优惠政策",
+              "帮助企业降低综合税负，实现税务优化",
+              "确保所有方案符合税法规定，避免税务风险"
             ]
           },
           {
-            title: "2️⃣ 作业动作与价值分析",
+            title: "2️⃣ 工商注册一站式服务",
             content: [
-              "引导工程师将工序分解为最小动作单元",
-              "自动区分 价值时间 vs. 辅助时间",
-              "量化浪费比例，精准判断改善潜力"
+              "提供公司注册、变更、注销等全流程服务",
+              "熟悉各环节流程，平均注册时间缩短至3个工作日",
+              "注册完成后提供持续服务，确保企业合规运营"
             ]
           },
           {
-            title: "3️⃣ 人机协作效率分析",
+            title: "3️⃣ 财务代理服务",
             content: [
-              "可视化呈现\"人等机 / 机等人\"",
-              "识别关键等待点与节拍冲突",
-              "支持一人多机、同步化工装等改善路径设计"
+              "专业记账报税，确保账务准确、及时",
+              "及时准确完成各类税务申报，避免税务风险",
+              "定期提供财务分析报告，帮助企业优化决策"
             ]
           },
           {
-            title: "4️⃣ OEE 与设备效率诊断",
+            title: "4️⃣ 自贸区政策咨询",
             content: [
-              "结构化引导设备数据采集",
-              "自动计算并对标行业水平",
-              "快速定位最大损失源，而不是只给一个 OEE 数字"
+              "深度了解海南自贸区各项优惠政策",
+              "为企业量身定制政策利用方案",
+              "帮助企业合理利用政策红利，实现降本增效"
             ]
           },
           {
-            title: "5️⃣ 产线平衡与瓶颈分析",
+            title: "5️⃣ 企业合规管理",
             content: [
-              "自动识别瓶颈工序",
-              "计算产线平衡率（LOB）",
-              "深入到瓶颈工序动作层级，形成可落地改善建议"
+              "提供合规经营指导和风险防控",
+              "帮助企业建立规范的财税管理体系",
+              "确保企业合规经营，避免经营风险"
             ]
           }
         ]
       }
     ]
   } : {
-    title: "Project Introduction | PM Series Agent - Time Standard Design Agent",
+    title: "Company Introduction | Hainan Huirong Future Co., Ltd.",
     sections: [
       {
-        title: "Project Introduction",
-        content: "The Time Standard Design Agent is an industrial engineering intelligent analysis system for manufacturing engineers and lean teams. It focuses on standard time, integrating time measurement, motion analysis, human-machine collaboration, OEE calculation, and production line balancing through interactive dialogue + automatic analysis to help enterprises quickly and reliably complete process analysis and quota design.",
-        content2: "Unlike traditional methods relying on Excel, experience, or expert on-site support, Qingfeng systematizes, processes, and intelligently transforms professional industrial engineering logic, making standard time and efficiency analysis reusable, traceable, and evaluable."
+        title: "Company Introduction",
+        content: "Hainan Huirong Future Co., Ltd. is a professional institution focusing on one-stop enterprise services. With years of deep focus on Hainan Free Trade Zone, we provide comprehensive financial & tax consulting, business registration, tax planning, financial agency and other services for enterprises.",
+        content2: "We have an experienced professional team, including senior certified public accountants, tax agents and business registration consultants, committed to helping enterprises operate compliantly, reduce tax burden and improve efficiency, empowering enterprises to achieve high-quality development in Hainan Free Trade Zone."
+      },
+      {
+        title: "What Problems Do We Solve?",
+        content: "Enterprises operating in Hainan Free Trade Zone generally face the following pain points:",
+        list: [
+          "Insufficient understanding of Free Trade Zone preferential policies, unable to fully utilize policy dividends",
+          "Irregular financial & tax management, tax risks exist",
+          "Business registration, change and other procedures are cumbersome, time-consuming and laborious",
+          "Lack of professional financial & tax consulting and planning guidance",
+          "Unprofessional financial agency services, affecting compliant operation"
+        ],
+        footer: "Our goal is to help enterprises move from 'experience management' to 'professional service + compliant operation'."
+      },
+      {
+        title: "Core Service Capabilities",
+        items: [
+          {
+            title: "1️⃣ Financial & Tax Consulting & Planning",
+            content: [
+              "Provide professional tax planning solutions, reasonably utilize Hainan Free Trade Zone preferential policies",
+              "Help enterprises reduce comprehensive tax burden, achieve tax optimization",
+              "Ensure all solutions comply with tax laws, avoid tax risks"
+            ]
+          },
+          {
+            title: "2️⃣ One-Stop Business Registration Service",
+            content: [
+              "Provide full-process services including company registration, change, cancellation, etc.",
+              "Familiar with processes of all links, average registration time shortened to 3 working days",
+              "After registration completion, provide continuous services to ensure compliant operation"
+            ]
+          },
+          {
+            title: "3️⃣ Financial Agency Service",
+            content: [
+              "Professional bookkeeping and tax declaration, ensure accurate and timely accounting",
+              "Complete various tax declarations timely and accurately, avoid tax risks",
+              "Regularly provide financial analysis reports to help enterprises optimize decisions"
+            ]
+          }
+        ]
       }
     ]
   };

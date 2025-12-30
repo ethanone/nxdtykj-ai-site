@@ -1,276 +1,276 @@
 {
   "companyInfo": {
-    "name": "Factory AI Digital Employee",
-    "nameEn": "Factory AI Digital Employee",
-    "brandName": "Factory AI",
-    "slogan": "AI Digital Employees for Every Factory",
-    "sloganEn": "AI Digital Employees for Every Factory",
-    "tagline": "Smart Manufacturing · AI Empowerment",
-    "focus": "Smart Production · AI Quality Control · Equipment O&M · Data Analysis",
+    "name": "Hainan Huirong Future Co., Ltd.",
+    "nameEn": "Hainan Huirong Future Co., Ltd.",
+    "brandName": "Huirong Future",
+    "slogan": "Professional One-Stop Enterprise Services, Empowering Hainan Free Trade Zone Enterprises",
+    "sloganEn": "Professional One-Stop Enterprise Services, Empowering Hainan Free Trade Zone Enterprises",
+    "tagline": "Enterprise Services · Financial & Tax Consulting",
+    "focus": "Financial & Tax Consulting · Business Registration · Tax Planning · Financial Agency · One-Stop Enterprise Services",
     "founded": "2020",
-    "website": "www.ie-ai-expert.com",
-    "phone": "",
-    "email": "contact@ie-ai-expert.com",
-    "emailSecondary": "info@ie-ai-expert.com",
-    "address": "Electronic Information Industry Building, 1st Ring Road, Chenghua District, Chengdu, China",
-    "capacity": "Comprehensive industrial engineering analysis",
+    "website": "www.hrwl-ai.com",
+    "phone": "0898-XXXX-XXXX",
+    "email": "contact@hrwl-ai.com",
+    "emailSecondary": "info@hrwl-ai.com",
+    "address": "Haikou, Hainan, China",
+    "capacity": "Comprehensive enterprise services and financial & tax consulting",
     "responseTime": "Response within 2 business days",
-    "subtitle": "24/7 intelligent assistant providing comprehensive AI services for your factory including production management, quality inspection, equipment maintenance, and more."
+    "subtitle": "Providing comprehensive financial & tax consulting, business registration, tax planning, financial agency and other one-stop professional services for enterprises. Deeply rooted in Hainan Free Trade Zone, helping enterprises operate compliantly, reduce costs and improve efficiency."
   },
   "aboutUs": {
     "intro": [
-      "Industrial Engineering AI Expert is an intelligent analysis assistant tailored for manufacturing engineers. With years of deep focus on industrial engineering, we deeply understand engineers' needs and challenges in time study, motion analysis, human-machine collaboration, OEE calculation, and line balancing.",
-      "Through multi-round interactive dialogue, we guide you to provide necessary information and apply professional industrial engineering methodologies to provide precise calculation results and in-depth analysis, helping you make scientific decisions.",
-      "Our AI expert system is based on standard industrial engineering methods such as MOST, MTM, and MODAPTS, combined with machine learning technology, to provide professional, efficient, and reliable industrial engineering analysis services."
+      "Hainan Huirong Future Co., Ltd. is a professional institution focusing on one-stop enterprise services. With years of deep focus on Hainan Free Trade Zone, we deeply understand enterprises' needs and challenges in financial & tax management, business registration, tax planning and other aspects.",
+      "We have an experienced professional team providing full-process services from registration to daily operations, helping enterprises operate compliantly, reduce tax burden and improve efficiency.",
+      "The company adheres to the service philosophy of 'Professional, Efficient, Honest, Innovative', committed to becoming the most trusted enterprise service partner in Hainan Free Trade Zone."
     ],
-    "mission": "Empower industrial engineers through AI technology, providing professional analysis services such as time study, motion analysis, and OEE calculation. The platform adopts an interactive dialogue approach to guide users to provide key information and generate professional industrial engineering analysis reports.",
-    "vision": "To become the most professional AI intelligent assistant in the field of industrial engineering, driving lean production with data and empowering engineering decisions with AI.",
+    "mission": "Through professional financial & tax consulting and one-stop enterprise services, help Hainan Free Trade Zone enterprises operate compliantly, reduce costs and improve efficiency, empowering enterprises to achieve high-quality development.",
+    "vision": "To become the most professional and trusted one-stop enterprise service platform in Hainan Free Trade Zone, empowering enterprise development with professional services.",
     "values": [
-      "Equal emphasis on professionalism and ease of use",
-      "Equal emphasis on precise calculation and in-depth analysis",
+      "Equal emphasis on professionalism and service",
+      "Equal emphasis on compliant operation and cost reduction",
       "Equal emphasis on theoretical methods and practical experience",
-      "Equal emphasis on continuous learning and effect guarantee"
+      "Equal emphasis on continuous learning and customer satisfaction"
     ]
   },
   "coreAdvantages": [
     {
       "icon": "Shield",
-      "title": "Multi-round Interactive Dialogue",
-      "description": "Through structured dialogue process, gradually guide engineers to provide necessary information. The system intelligently adjusts questions based on your answers to ensure complete and accurate data acquisition and improve analysis efficiency.",
-      "highlights": ["Smart Q&A", "Step-by-step guide", "Data validation"]
+      "title": "Professional Financial & Tax Team",
+      "description": "Have senior certified public accountants, tax agents and other professional qualified personnel, familiar with Hainan Free Trade Zone financial & tax policies, providing precise financial & tax consulting and planning services for enterprises.",
+      "highlights": ["Professional qualification", "Policy familiarity", "Precise service"]
     },
     {
       "icon": "CheckCircle2",
-      "title": "Professional Methodology Support",
-      "description": "Based on international standard industrial engineering methods such as MOST, MTM, and MODAPTS, combined with Six Sigma and Lean Production theories, to provide scientifically rigorous analysis results.",
-      "highlights": ["Standard methods", "Scientifically rigorous", "Industry recognized"]
+      "title": "One-Stop Service",
+      "description": "From business registration and tax registration to daily financial agency and tax declaration, providing full-process one-stop services, allowing enterprises to save time and effort, focusing on core business.",
+      "highlights": ["Full-process service", "Time-saving", "Business focus"]
     },
     {
       "icon": "Cpu",
-      "title": "Precise Calculation and Analysis",
-      "description": "Adopt advanced algorithm models to accurately calculate key indicators such as time, OEE, and line balance rate. Automatically identify bottleneck processes and provide optimization suggestions to help improve production efficiency.",
-      "highlights": ["Precise calculation", "Intelligent analysis", "Optimization suggestions"]
+      "title": "Free Trade Zone Policy Advantages",
+      "description": "Deeply understand various preferential policies of Hainan Free Trade Zone, helping enterprises reasonably utilize policy dividends to achieve tax optimization and cost reduction.",
+      "highlights": ["Policy advantages", "Tax optimization", "Cost reduction"]
     },
     {
       "icon": "TrendingUp",
-      "title": "Professional Report Generation",
-      "description": "Automatically generate structured professional reports, including detailed calculation processes, data analysis, visualization charts, and improvement suggestions. Support export to PDF, Excel, and other formats.",
-      "highlights": ["Professional reports", "Visualization", "Multi-format export"]
+      "title": "Efficient Response Service",
+      "description": "7×24 hours online consulting, quick response to customer needs, timely solve enterprise financial & tax problems, ensure compliant operation.",
+      "highlights": ["Quick response", "Timely solution", "Compliance guarantee"]
     }
   ],
   "focusAreas": [
     {
-      "name": "Time Study",
+      "name": "Financial & Tax Consulting",
       "icon": "TrendingUp",
-      "description": "Standard time, actual time, predetermined time calculation",
+      "description": "Tax planning, financial analysis, cost control",
       "color": "#8B2F39"
     },
     {
-      "name": "Motion Analysis",
+      "name": "Business Registration",
       "icon": "Sparkles",
-      "description": "MOST, MTM, MODAPTS motion decomposition",
+      "description": "Company registration, change, cancellation one-stop service",
       "color": "#6B4C7A"
     },
     {
-      "name": "OEE Calculation",
+      "name": "Financial Agency",
       "icon": "FileText",
-      "description": "Availability, performance, quality rate analysis",
+      "description": "Bookkeeping, tax declaration, financial analysis, report preparation",
       "color": "#C9A872"
     }
   ],
   "team": {
-    "intro": "The platform consists of senior industrial engineering experts, AI algorithm engineers, and manufacturing consultants. Team members have rich practical experience in industrial engineering and deep theoretical foundation, committed to providing professional and efficient intelligent analysis services for engineers.",
+    "intro": "The company consists of senior financial & tax experts, certified public accountants, tax agents and business registration consultants. Team members have rich enterprise service experience and deep professional foundation, committed to providing professional and efficient one-stop services for enterprises.",
     "leadership": [
       {
-        "name": "Industrial Engineering Expert Team",
-        "nameEn": "IE Expert Team",
-        "title": "Methodology Research · Standard Formulation",
-        "titleEn": "IE Methodology",
-        "avatar": "/images/team/ie-expert.jpg",
-        "education": "Master/PhD in Industrial Engineering",
-        "background": "20+ years of industrial engineering practice experience, proficient in MOST, MTM, MODAPTS and other methods",
+        "name": "Financial & Tax Consulting Team",
+        "nameEn": "Financial & Tax Consulting Team",
+        "title": "Tax Planning · Financial Analysis",
+        "titleEn": "Tax Planning",
+        "avatar": "/images/team/finance-expert.jpg",
+        "education": "Certified Public Accountant / Tax Agent",
+        "background": "10+ years of financial & tax consulting practice experience, proficient in tax planning, financial analysis, cost control",
         "achievements": [
-          "Participated in the formulation of multiple national industrial engineering standards",
-          "Served 500+ manufacturing enterprises in industrial engineering consulting",
-          "Trained 10,000+ industrial engineers"
+          "Served 500+ enterprises in financial & tax consulting",
+          "Cumulative tax savings for enterprises exceeded 50 million yuan",
+          "Customer satisfaction over 98%"
         ],
-        "expertise": ["Time Study", "Motion Analysis", "Line Balancing", "Lean Production"]
+        "expertise": ["Tax Planning", "Financial Analysis", "Cost Control", "Compliance Management"]
       },
       {
-        "name": "AI Algorithm Team",
-        "nameEn": "AI Algorithm Team",
-        "title": "Intelligent Analysis · Algorithm Optimization",
-        "titleEn": "AI Innovation",
-        "avatar": "/images/team/ai-team.jpg",
-        "education": "Artificial Intelligence Experts",
-        "background": "Focus on AI applications in industrial engineering, develop intelligent analysis algorithms",
+        "name": "Business Registration Team",
+        "nameEn": "Business Registration Team",
+        "title": "Enterprise Registration · Change Services",
+        "titleEn": "Business Registration",
+        "avatar": "/images/team/business-expert.jpg",
+        "education": "Business Registration Professional Consultant",
+        "background": "Focus on Hainan Free Trade Zone enterprise registration, change, cancellation and other full-process services",
         "achievements": [
-          "Developed multiple industrial engineering AI models",
-          "Implemented intelligent time prediction and bottleneck identification",
-          "Calculation accuracy over 99%"
+          "Cumulatively served 1000+ enterprise registrations",
+          "Average registration time shortened to 3 working days",
+          "100% registration success rate"
         ],
-        "expertise": ["Machine Learning", "Data Analysis", "Optimization Algorithms", "NLP"]
+        "expertise": ["Business Registration", "Enterprise Change", "Cancellation Service", "Qualification Processing"]
       },
       {
-        "name": "Manufacturing Consultant Team",
-        "nameEn": "Manufacturing Consultant Team",
-        "title": "Industry Insights · Practical Experience",
-        "titleEn": "Manufacturing Expertise",
-        "avatar": "/images/team/industry-expert.jpg",
-        "education": "Manufacturing Management Experts",
-        "background": "Long-term service to automotive, electronics, machinery and other industries, deep understanding of on-site management",
+        "name": "Financial Agency Team",
+        "nameEn": "Financial Agency Team",
+        "title": "Bookkeeping · Tax Declaration",
+        "titleEn": "Financial Agency",
+        "avatar": "/images/team/accounting-expert.jpg",
+        "education": "Financial Agency Professional Team",
+        "background": "Long-term service to various enterprises, deep understanding of enterprise financial needs",
         "achievements": [
-          "Led 200+ production line optimization projects",
-          "Average production efficiency improvement of 25%",
-          "Reduced manufacturing costs by 15%"
+          "800+ bookkeeping enterprises",
+          "100% tax declaration accuracy",
+          "Helped enterprises improve compliance rate by 95%"
         ],
-        "expertise": ["On-site Management", "Efficiency Improvement", "Cost Control", "Quality Management"]
+        "expertise": ["Bookkeeping", "Tax Declaration", "Report Preparation", "Financial Analysis"]
       },
       {
-        "name": "Product Technology Team",
-        "nameEn": "Product Technology Team",
-        "title": "User Experience · Continuous Innovation",
-        "titleEn": "Product Excellence",
+        "name": "Customer Service Team",
+        "nameEn": "Customer Service Team",
+        "title": "Customer Service · Continuous Support",
+        "titleEn": "Customer Service",
         "avatar": "/images/team/service-team.jpg",
-        "education": "Product and Technology Experts",
-        "background": "Committed to creating easy-to-use and professional industrial engineering AI tools",
+        "education": "Customer Service Expert",
+        "background": "Committed to creating professional, efficient and caring customer service experience",
         "achievements": [
-          "User satisfaction over 96%",
-          "Process 50,000+ analysis requests monthly",
-          "System response time <2 seconds"
+          "Customer satisfaction over 96%",
+          "Average response time <2 hours",
+          "7×24 hours online service"
         ],
-        "expertise": ["Product Design", "System Architecture", "User Experience", "Agile Development"]
+        "expertise": ["Customer Service", "Problem Solving", "Continuous Support", "Relationship Maintenance"]
       }
     ],
     "teamSize": {
-      "development": "30+",
-      "research": "15+",
-      "aiAlgorithm": "10+",
+      "development": "20+",
+      "research": "10+",
+      "aiAlgorithm": "5+",
       "advisors": {
-        "medical": "Senior IE Consultants",
-        "power": "Manufacturing Practice Experts",
-        "design": "Lean Production Experts"
+        "medical": "Senior Financial & Tax Consultant",
+        "power": "Free Trade Zone Policy Expert",
+        "design": "Enterprise Service Expert"
       }
     }
   },
   "caseStudies": [
     {
       "id": "case-01",
-      "title": "Automotive Assembly Line Time Study",
-      "subtitle": "Accurate standard time measurement and line optimization",
-      "category": "Time Study",
+      "title": "Free Trade Zone Enterprise Tax Planning Case",
+      "subtitle": "Reasonable use of policies to achieve tax optimization",
+      "category": "Tax Planning",
       "icon": "TrendingUp",
       "color": "#8B2F39",
-      "technologies": ["MOST Method", "Standard Time", "Line Balancing"],
-      "painPoint": "Unbalanced workstation times causing frequent production bottlenecks and low overall efficiency.",
+      "technologies": ["Tax Planning", "Policy Utilization", "Cost Optimization"],
+      "painPoint": "After enterprises set up in Hainan Free Trade Zone, they have insufficient understanding of preferential policies, high tax burden, and lack professional tax planning guidance.",
       "features": [
         {
-          "name": "Precise Time Study",
-          "description": "Detailed measurement of 42 assembly processes using MOST method, establishing standard time database"
+          "name": "Policy Analysis",
+          "description": "In-depth analysis of various tax preferential policies in Hainan Free Trade Zone, tailor-made tax planning solutions for enterprises"
         },
         {
-          "name": "Bottleneck Analysis",
-          "description": "Automatically identify bottleneck processes, analyze line balance rate, provide optimization plans"
+          "name": "Structure Optimization",
+          "description": "Optimize enterprise equity structure and business structure, reasonably utilize policy dividends, reduce comprehensive tax burden"
         },
         {
-          "name": "Workstation Optimization",
-          "description": "Redistribute work content based on time data, improve line balance rate to 95%"
+          "name": "Compliance Guarantee",
+          "description": "Ensure all planning solutions comply with tax laws, avoid tax risks, guarantee compliant operation"
         }
       ],
-      "outcome": "Line balance rate improved from 68% to 95%, production efficiency increased by 40%, eliminated major bottlenecks, annual output value increased by 20 million yuan.",
-      "image": "/images/case-government.webp"
+      "outcome": "Helped enterprises reduce comprehensive tax burden by 35%, cumulative tax savings exceeded 5 million yuan, while ensuring 100% compliant operation, receiving high recognition from customers.",
+      "image": "/images/case-tax-planning.webp"
     },
     {
       "id": "case-02",
-      "title": "Electronics Factory OEE Comprehensive Analysis",
-      "subtitle": "Comprehensive improvement of Overall Equipment Effectiveness",
-      "category": "OEE Calculation",
+      "title": "New Enterprise One-Stop Service",
+      "subtitle": "Full-process service from registration to operation",
+      "category": "Enterprise Service",
       "icon": "CheckCircle2",
       "color": "#6B4C7A",
-      "technologies": ["OEE Analysis", "Downtime Analysis", "Efficiency Improvement"],
-      "painPoint": "Low equipment utilization, frequent failures, OEE hovering around 60%.",
+      "technologies": ["Business Registration", "Tax Registration", "Financial Agency"],
+      "painPoint": "New enterprises are unfamiliar with registration process, tax registration, financial agency and other links, need to visit multiple departments, time-consuming and laborious.",
       "features": [
         {
-          "name": "Real-time OEE Monitoring",
-          "description": "Establish OEE calculation model, real-time monitoring of availability, performance, and quality rates"
+          "name": "One-Stop Service",
+          "description": "Provide full-process one-stop services including business registration, tax registration, bank account opening, financial agency, etc."
         },
         {
-          "name": "Six Big Losses Analysis",
-          "description": "Automatically analyze six big losses: breakdowns, setup/adjustment, idling/minor stops, reduced speed, startup losses, defects/rework"
+          "name": "Quick Processing",
+          "description": "Familiar with processes of all links, average registration time shortened to 3 working days, greatly improving efficiency"
         },
         {
-          "name": "Improvement Plans",
-          "description": "Provide targeted improvement suggestions and action plans for major loss sources"
+          "name": "Continuous Support",
+          "description": "After registration completion, provide continuous services such as financial agency and tax declaration to ensure compliant operation"
         }
       ],
-      "outcome": "OEE improved from 60% to 85%, equipment failure rate reduced by 70%, capacity increased by 42%, annual cost savings of 5 million yuan.",
-      "image": "/images/case-protection.webp"
+      "outcome": "Helped enterprises complete all registration procedures within 3 working days, saving 60% of time cost, 100% customer satisfaction, continued cooperation afterwards.",
+      "image": "/images/case-business-service.webp"
     },
     {
       "id": "case-03",
-      "title": "Machining Motion Analysis Optimization",
-      "subtitle": "Motion improvement based on MTM method",
-      "category": "Motion Analysis",
+      "title": "Financial Agency Service Optimization",
+      "subtitle": "Improve financial management efficiency, reduce operating costs",
+      "category": "Financial Agency",
       "icon": "Home",
       "color": "#D4AF37",
-      "technologies": ["MTM Analysis", "Motion Economy", "Efficiency Improvement"],
+      "technologies": ["Bookkeeping", "Tax Declaration", "Financial Analysis"],
       "features": [
         {
-          "name": "MTM Motion Decomposition",
-          "description": "Detailed MTM motion decomposition of key processes, identifying ineffective motions"
+          "name": "Professional Bookkeeping",
+          "description": "Use professional financial software, standardize bookkeeping process, ensure accurate and timely accounting"
         },
         {
-          "name": "Motion Economy Principles",
-          "description": "Apply 22 motion economy principles to optimize work motions and workstation layout"
+          "name": "Tax Declaration",
+          "description": "Complete various tax declarations timely and accurately, avoid tax risks, ensure compliant operation"
         },
         {
-          "name": "Improvement Implementation",
-          "description": "Develop detailed improvement plans, train operators, standardize work operations"
+          "name": "Financial Analysis",
+          "description": "Regularly provide financial analysis reports to help enterprises understand operating conditions and optimize decisions"
         }
       ],
-      "outcome": "Single-piece processing time reduced from 185 seconds to 128 seconds, 44% efficiency improvement, 30% reduction in operator fatigue, quality pass rate increased to 99.5%.",
-      "image": "/images/case-park.webp"
+      "outcome": "Helped enterprises improve financial management efficiency by 50%, 100% tax declaration accuracy, 95% compliance rate improvement, 30% operating cost reduction.",
+      "image": "/images/case-accounting.webp"
     },
     {
       "id": "case-04",
-      "title": "Human-Machine Collaboration Efficiency Analysis",
-      "subtitle": "Optimize human-machine ratio, improve collaboration efficiency",
-      "category": "Human-Machine Collaboration",
+      "title": "Enterprise Change Service",
+      "subtitle": "Quickly and efficiently complete enterprise change procedures",
+      "category": "Enterprise Change",
       "icon": "FileText",
       "color": "#C9A872",
-      "technologies": ["Human-Machine Chart", "Load Analysis", "Efficiency Optimization"],
+      "technologies": ["Business Change", "Tax Change", "Qualification Change"],
       "features": [
         {
-          "name": "Human-Machine Chart Analysis",
-          "description": "Draw human-machine operation charts, analyze idle time of personnel and equipment"
+          "name": "Change Consulting",
+          "description": "Provide professional change solution consulting to help enterprises choose optimal change path"
         },
         {
-          "name": "Load Rate Calculation",
-          "description": "Accurately calculate personnel and equipment load rates, find optimization opportunities"
+          "name": "Quick Processing",
+          "description": "Familiar with change process, quickly complete various change procedures such as business and tax"
         },
         {
-          "name": "Ratio Optimization",
-          "description": "Optimize human-machine ratio, achieve efficient modes of one person operating multiple machines or multiple people operating one machine"
+          "name": "Follow-up Service",
+          "description": "After change completion, provide follow-up financial and tax services to ensure compliant operation after change"
         }
       ],
-      "outcome": "Achieved 1 person operating 3 machines, 200% personnel efficiency improvement, equipment utilization increased from 65% to 90%, per capita output doubled.",
-      "image": "/images/case-agency.webp"
+      "outcome": "Average change time shortened to 5 working days, 100% change success rate, helping enterprises quickly adapt to business development needs.",
+      "image": "/images/case-change.webp"
     }
   ],
   "contact": {
-    "phone": "",
-    "email": "contact@ie-ai-expert.com",
-    "emailSecondary": "info@ie-ai-expert.com",
-    "address": "Electronic Information Industry Building, 1st Ring Road, Chenghua District, Chengdu, China",
-    "addressShort": "Chengdu · Chenghua District",
+    "phone": "0898-XXXX-XXXX",
+    "email": "contact@hrwl-ai.com",
+    "emailSecondary": "info@hrwl-ai.com",
+    "address": "Haikou, Hainan, China",
+    "addressShort": "Haikou",
     "wechat": "Please contact via email for WeChat",
     "workingHours": "Weekdays 9:00-18:00 (GMT+8)",
     "responseTime": "Response within 2 business days",
     "services": [
-      "Free trial of industrial engineering AI analysis",
-      "Get industrial engineering methodology white papers",
-      "Schedule 1-on-1 consultation with senior engineers",
-      "Learn about latest features and industry cases"
+      "Free financial & tax consulting",
+      "Get Free Trade Zone policy materials",
+      "Schedule 1-on-1 consultation with professional consultants",
+      "Learn about latest services and success cases"
     ]
   }
 }

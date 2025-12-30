@@ -4,20 +4,20 @@ import { cn } from "@/lib/utils";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 
 export const metadata: Metadata = {
-  title: "工厂AI数字员工 - 让每个工厂都拥有AI数字员工 | 智能工厂平台",
-  description: "工厂AI数字员工平台提供7×24小时智能助手服务，为您的工厂提供专业的生产管理、质量检测、设备运维等全方位AI服务。智能生产、AI质检、设备运维、数据分析，助力工厂降本增效。",
-  keywords: ["工厂AI", "数字员工", "智能制造", "AI助手", "生产管理", "质量检测", "设备运维", "工厂智能化", "工业AI", "智能工厂"],
-  authors: [{ name: "Factory AI Digital Employee" }],
+  title: "海南汇融未来有限公司 - 专业企业一站式服务 | 自贸区财税咨询",
+  description: "海南汇融未来有限公司提供专业的企业一站式服务，包括财税咨询、工商注册、税务筹划、财务代理等服务。深耕海南自贸区，助力企业合规经营、降本增效。",
+  keywords: ["海南汇融未来", "企业一站式服务", "财税咨询", "工商注册", "税务筹划", "财务代理", "海南自贸区", "企业服务", "财税服务", "海口企业服务"],
+  authors: [{ name: "海南汇融未来有限公司" }],
   icons: {
     icon: "/favicon.png",
     shortcut: "/favicon.png",
     apple: "/favicon.png",
   },
   openGraph: {
-    title: "工厂AI数字员工 - 让每个工厂都拥有AI数字员工",
-    description: "智能工厂平台 | AI驱动 | 7×24小时服务 | 降本增效 | 智能分析",
-    url: "https://www.factory-ai.com",
-    siteName: "工厂AI数字员工",
+    title: "海南汇融未来有限公司 - 专业企业一站式服务",
+    description: "企业一站式服务 | 财税咨询 | 工商注册 | 税务筹划 | 财务代理 | 海南自贸区",
+    url: "https://www.hrwl-ai.com",
+    siteName: "海南汇融未来有限公司",
     locale: "zh_CN",
     type: "website",
   },
@@ -39,7 +39,7 @@ export default function RootLayout({
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
         {/* DNS 预连接 - 性能优化 */}
-        <link rel="dns-prefetch" href="https://www.factory-ai.com" />
+        <link rel="dns-prefetch" href="https://www.hrwl-ai.com" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
       </head>

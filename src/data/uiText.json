@@ -6,75 +6,75 @@
     "services": "服务",
     "cases": "案例",
     "contact": "联系",
-    "requestSample": "开始分析",
+    "requestSample": "开始咨询",
     "switchLanguage": "切换语言",
     "switchToEnglish": "切换到英文"
   },
   "hero": {
     "learnMore": "了解更多",
-    "contactUs": "开始分析"
+    "contactUs": "开始咨询"
   },
   "solutions": {
-    "badge": "核心分析能力",
-    "title": "通过多轮交互式对话引导工程师高效分析",
-    "titleHighlight": "精准·高效·专业",
-    "subtitle": "基于MOST、MTM、MODAPTS等标准方法，提供工时测定、动作分析、OEE计算、产线平衡等专业分析服务。"
+    "badge": "核心服务能力",
+    "title": "为企业提供专业的一站式服务",
+    "titleHighlight": "专业·高效·可靠",
+    "subtitle": "提供财税咨询、工商注册、税务筹划、财务代理等全方位企业服务，助力企业合规经营、降本增效。"
   },
   "focusAreas": {
     "badge": "核心服务领域",
     "title": "我们的",
     "titleHighlight": "专业领域",
-    "subtitle": "致力于为工业工程师提供精准的分析计算和专业指导"
+    "subtitle": "致力于为企业提供专业的财税咨询和一站式服务"
   },
   "dataSystem": {
-    "badge": "专业方法论",
-    "title": "基于国际标准工业工程方法",
-    "titleHighlight": "科学严谨·行业认可",
-    "subtitle": "采用MOST、MTM、MODAPTS等标准方法论，结合AI技术，为您提供精准可靠的分析结果。"
+    "badge": "专业服务",
+    "title": "基于海南自贸区政策优势",
+    "titleHighlight": "专业服务·政策优势",
+    "subtitle": "深度了解海南自贸区各项优惠政策，结合专业财税知识，为企业提供精准可靠的服务。"
   },
   "about": {
     "badge": "关于我们",
     "title": "专注于",
-    "titleHighlight": "工业工程智能分析",
+    "titleHighlight": "企业一站式服务",
     "coreGoal": "核心使命",
     "vision": "愿景"
   },
   "advantages": {
     "badge": "核心优势",
     "title": "为什么选择",
-    "titleHighlight": "工业工程AI专家"
+    "titleHighlight": "海南汇融未来"
   },
   "team": {
-    "badge": "专家团队",
+    "badge": "专业团队",
     "title": "认识我们的",
     "titleHighlight": "专业团队"
   },
   "testimonials": {
     "badge": "客户案例",
-    "title": "服务500+制造企业的工业工程分析",
-    "titleHighlight": "精准计算·专业指导",
-    "subtitle": "我们致力于通过专业的工业工程方法论和AI技术，帮助工程师提升分析效率，做出科学决策。"
+    "title": "服务500+企业的专业服务",
+    "titleHighlight": "专业服务·客户信赖",
+    "subtitle": "我们致力于通过专业的财税咨询和一站式服务，帮助企业合规经营、降本增效。"
   },
   "cases": {
     "badge": "成功案例",
-    "title": "工业工程分析的",
+    "title": "企业服务的",
     "titleHighlight": "实践应用",
-    "subtitle": "专业方法论与AI技术深度融合，为客户创造实实在在的效率提升价值",
-    "technologies": "核心方法",
+    "subtitle": "专业服务与政策优势深度融合，为客户创造实实在在的价值",
+    "technologies": "核心服务",
     "painPoint": "痛点: ",
     "features": "核心功能",
     "outcome": "项目成果"
   },
   "contact": {
     "badge": "联系我们",
-    "title": "与我们的工业工程专家取得联系",
-    "titleHighlight": "从免费体验开始",
+    "title": "与我们的专业顾问取得联系",
+    "titleHighlight": "从免费咨询开始",
     "titleSuffix": "",
-    "subtitle": "申请免费分析体验，获取工业工程方法论资料，并了解最新功能和行业案例。",
+    "subtitle": "申请免费财税咨询，获取自贸区政策资料，并了解最新服务和成功案例。",
     "phoneLabel": "电话",
     "emailLabel": "邮箱",
     "addressLabel": "地址",
-    "cta": "开始分析",
+    "cta": "开始咨询",
     "values": "我们的核心价值观",
     "advisors": "行业专家顾问"
   },
@@ -82,12 +82,12 @@
     "quickLinks": "快速链接",
     "contactInfo": "联系方式",
     "about": "关于我们",
-    "team": "专家团队",
+    "team": "专业团队",
     "services": "服务",
     "cases": "成功案例",
     "contact": "联系我们",
     "allRightsReserved": "版权所有",
     "foundedIn": "成立于",
-    "focusOn": "专注于工业工程智能分析"
+    "focusOn": "专注于企业一站式服务"
   }
 }

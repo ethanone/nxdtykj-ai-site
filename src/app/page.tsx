@@ -87,7 +87,7 @@ export default function HomePage() {
               >
                 <Image
                   src="/images/team/ChatGPT_Image_2025年12月16日_20_59_50-removebg-preview.png"
-                  alt="工厂AI数字员工"
+                  alt="海南汇融未来有限公司"
                   width={240}
                   height={240}
                   className="object-contain drop-shadow-2xl w-full h-full"
@@ -117,7 +117,7 @@ export default function HomePage() {
               className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-[1.1] tracking-tight"
             >
               <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-                工厂AI数字员工
+                海南汇融未来
               </span>
             </motion.h1>
 
@@ -154,7 +154,7 @@ export default function HomePage() {
                 className="cta-button px-12 py-7 text-lg font-semibold tracking-wide w-full sm:w-auto min-h-[64px] shadow-xl hover:shadow-2xl transition-all"
               >
                 <Bot className="w-6 h-6 mr-3" />
-                {language === 'zh' ? '开始使用' : 'Get Started'}
+                {language === 'zh' ? '开始咨询' : 'Start Consulting'}
               </Button>
               <Button 
                 size="lg" 
@@ -171,20 +171,20 @@ export default function HomePage() {
               {[
                 {
                   icon: Clock,
-                  title: language === 'zh' ? '7×24小时服务' : '24/7 Service',
-                  desc: language === 'zh' ? '全天候智能助手' : 'Round-the-clock AI assistant',
+                  title: language === 'zh' ? '专业财税团队' : 'Professional Team',
+                  desc: language === 'zh' ? '资深注册会计师、税务师' : 'Certified Public Accountants & Tax Agents',
                   color: '#8B2F39'
                 },
                 {
                   icon: Zap,
-                  title: language === 'zh' ? '快速响应' : 'Fast Response',
-                  desc: language === 'zh' ? '秒级智能回复' : 'Second-level response',
+                  title: language === 'zh' ? '一站式服务' : 'One-Stop Service',
+                  desc: language === 'zh' ? '从注册到运营全流程' : 'Full-process from registration to operation',
                   color: '#6B4C7A'
                 },
                 {
                   icon: TrendingUp,
-                  title: language === 'zh' ? '效率提升' : 'Efficiency Boost',
-                  desc: language === 'zh' ? '降本增效40%' : '40% efficiency improvement',
+                  title: language === 'zh' ? '自贸区优势' : 'Free Trade Zone',
+                  desc: language === 'zh' ? '深度了解政策红利' : 'Deep understanding of policy benefits',
                   color: '#C9A872'
                 },
               ].map((feature, index) => (
