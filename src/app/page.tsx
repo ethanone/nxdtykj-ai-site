@@ -62,6 +62,34 @@ export default function HomePage() {
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-white via-gray-50 to-white">
+      {/* 顶部导航栏 - Logo在左上角 */}
+      <header className="fixed top-0 left-0 right-0 z-40 bg-white/80 backdrop-blur-sm border-b border-gray-200/50">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-16 sm:h-20">
+            {/* Logo - 左上角 */}
+            <motion.div 
+              initial={{ opacity: 0, x: -20 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.5, ease: "easeOut" }}
+              className="flex items-center"
+            >
+              <div className="relative w-32 h-32 sm:w-40 sm:h-40 md:w-44 md:h-44">
+                {/* 临时使用现有图片，请将红色logo保存为 /public/images/logo.png */}
+                <Image
+                  src="/images/logo.png"
+                  alt="海南汇融未来有限公司"
+                  width={176}
+                  height={176}
+                  className="object-contain w-full h-full"
+                  priority
+                  sizes="(max-width: 640px) 128px, (max-width: 768px) 160px, 176px"
+                />
+              </div>
+            </motion.div>
+          </div>
+        </div>
+      </header>
+
       <LanguageToggle uiText={uiText} />
       
       {/* 聊天模态框 */}
@@ -74,28 +102,9 @@ export default function HomePage() {
       <FloatingChatButton onClick={() => setIsChatModalOpen(true)} />
 
       {/* Hero Section */}
-      <section className="min-h-screen flex items-center justify-center px-4 py-20">
+      <section className="min-h-screen flex items-center justify-center px-4 py-20 pt-32 sm:pt-40">
         <div className="container mx-auto max-w-6xl text-center">
           <motion.div {...fadeInUp}>
-            {/* Logo - 大气简洁设计 */}
-            <div className="mb-12 sm:mb-16 flex justify-center">
-              <motion.div 
-                initial={{ scale: 0.9, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{ duration: 0.6, ease: "easeOut" }}
-                className="relative w-32 h-32 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-60 lg:h-60"
-              >
-                <Image
-                  src="/images/team/ChatGPT_Image_2025年12月16日_20_59_50-removebg-preview.png"
-                  alt="海南汇融未来有限公司"
-                  width={240}
-                  height={240}
-                  className="object-contain drop-shadow-2xl w-full h-full"
-                  priority
-                  sizes="(max-width: 640px) 128px, (max-width: 768px) 192px, (max-width: 1024px) 224px, 240px"
-                />
-              </motion.div>
-            </div>
 
             {/* 标签 - 简约苹果风格 */}
             <motion.div 
