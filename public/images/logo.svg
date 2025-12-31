@@ -1,33 +1,30 @@
-<svg width="180" height="50" viewBox="0 0 180 50" xmlns="http://www.w3.org/2000/svg">
+<svg width="160" height="40" viewBox="0 0 160 40" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:1" />
-      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3B82F6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8B5CF6;stop-opacity:1" />
     </linearGradient>
   </defs>
   
-  <!-- AI增长 Logo - 简约科技风格 -->
-  <!-- AI符号：抽象的网络节点 -->
-  <g id="ai-symbol">
-    <circle cx="12" cy="25" r="4" fill="url(#logoGrad)"/>
-    <circle cx="6" cy="18" r="2" fill="#2563EB" opacity="0.6"/>
-    <circle cx="6" cy="32" r="2" fill="#2563EB" opacity="0.6"/>
-    <circle cx="18" cy="18" r="2" fill="#7C3AED" opacity="0.6"/>
-    <circle cx="18" cy="32" r="2" fill="#7C3AED" opacity="0.6"/>
-    <line x1="12" y1="25" x2="6" y2="18" stroke="#2563EB" stroke-width="0.8" opacity="0.4"/>
-    <line x1="12" y1="25" x2="6" y2="32" stroke="#2563EB" stroke-width="0.8" opacity="0.4"/>
-    <line x1="12" y1="25" x2="18" y2="18" stroke="#2563EB" stroke-width="0.8" opacity="0.4"/>
-    <line x1="12" y1="25" x2="18" y2="32" stroke="#2563EB" stroke-width="0.8" opacity="0.4"/>
-  </g>
-  
-  <!-- 增长箭头 -->
-  <g id="growth-arrow">
-    <path d="M 28 35 L 28 20 L 38 20 L 38 15 L 50 25 L 38 35 L 38 30 L 28 30 Z" fill="url(#logoGrad)"/>
+  <!-- 简约AI符号 -->
+  <g id="symbol">
+    <!-- 中心六边形 -->
+    <path d="M 15 20 L 20 16 L 25 16 L 30 20 L 25 24 L 20 24 Z" fill="url(#grad)" opacity="0.9"/>
+    
+    <!-- 连接节点 -->
+    <circle cx="10" cy="12" r="2.5" fill="#3B82F6" opacity="0.7"/>
+    <circle cx="10" cy="28" r="2.5" fill="#3B82F6" opacity="0.7"/>
+    <circle cx="35" cy="12" r="2.5" fill="#8B5CF6" opacity="0.7"/>
+    <circle cx="35" cy="28" r="2.5" fill="#8B5CF6" opacity="0.7"/>
+    
+    <!-- 连接线 -->
+    <line x1="20" y1="16" x2="10" y2="12" stroke="#3B82F6" stroke-width="1.5" opacity="0.3"/>
+    <line x1="20" y1="24" x2="10" y2="28" stroke="#3B82F6" stroke-width="1.5" opacity="0.3"/>
+    <line x1="25" y1="16" x2="35" y2="12" stroke="#8B5CF6" stroke-width="1.5" opacity="0.3"/>
+    <line x1="25" y1="24" x2="35" y2="28" stroke="#8B5CF6" stroke-width="1.5" opacity="0.3"/>
   </g>
   
   <!-- 文字 -->
-  <g id="text">
-    <text x="58" y="22" font-family="system-ui, -apple-system, sans-serif" font-size="18" font-weight="700" fill="#1F2937" letter-spacing="-0.3">AI</text>
-    <text x="58" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#2563EB" letter-spacing="0.5">增长</text>
-  </g>
+  <text x="45" y="18" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="700" fill="#1F2937" letter-spacing="-0.5">AI</text>
+  <text x="45" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="600" fill="#6B7280" letter-spacing="0.3">增长</text>
 </svg>

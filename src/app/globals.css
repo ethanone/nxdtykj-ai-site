@@ -50,15 +50,15 @@
   --card-foreground: #2D1B1B;
   --popover: #FFFFFF;
   --popover-foreground: #2D1B1B;
-  --primary: #8B2F2F; /* 枣红色 - 主色 */
+  --primary: #3B82F6; /* 现代蓝色 - 主色 */
   --primary-foreground: #FFFFFF;
-  --secondary: #3D2734; /* 深酱紫色 */
+  --secondary: #8B5CF6; /* 紫色 */
   --secondary-foreground: #FFFFFF;
-  --muted: #F5F0EB;
-  --muted-foreground: #6B5D5D;
-  --accent: #C9A86A; /* 淡金色 CTA */
-  --accent-foreground: #2D1B1B;
-  --accent-hover: #B89650; /* 淡金色 hover 状态 */
+  --muted: #F9FAFB;
+  --muted-foreground: #6B7280;
+  --accent: #3B82F6; /* 蓝色 CTA */
+  --accent-foreground: #FFFFFF;
+  --accent-hover: #2563EB; /* 蓝色 hover 状态 */
   --destructive: #EF4444;
   --border: #E8DDD5;
   --input: #F5F0EB;
@@ -253,25 +253,27 @@
   }
 }
 
-/* 优雅的渐变 - 静奢风配色 */
+/* 现代科技感渐变 */
 .gradient-primary {
-  background: linear-gradient(135deg, #8B2F2F 0%, #3D2734 100%); /* 枣红到酱紫 */
+  background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
   color: #FFFFFF;
 }
 
 .gradient-secondary {
-  background: linear-gradient(135deg, #3D2734 0%, #2D1B1B 100%); /* 酱紫渐变 */
+  background: linear-gradient(135deg, #8B5CF6 0%, #3B82F6 100%);
   color: #FFFFFF;
 }
 
 .gradient-accent {
-  background: linear-gradient(135deg, #C9A86A 0%, #B89650 100%); /* 淡金色渐变 */
-  color: #2D1B1B;
+  background: linear-gradient(135deg, #3B82F6 0%, #2563EB 100%);
+  color: #FFFFFF;
 }
 
 .gradient-text {
-  color: #2D1B1B; /* 深棕色文字，静奢风 */
-  -webkit-text-fill-color: #2D1B1B;
+  background: linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .gradient-hover {
