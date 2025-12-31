@@ -2,6 +2,7 @@
   "companyInfo": {
     "name": "Chengdu Nixingde Sports Technology Co., Ltd.",
     "nameEn": "Chengdu Nixingde Sports Technology Co., Ltd.",
+    "nameDescription": "Chengdu Nixingde Sports Technology Co., Ltd. is committed to becoming a \"Growth Strategic Partner\" for enterprises. We are not just technology providers, but partners fighting alongside you.",
     "brandName": "AI Growth",
     "slogan": "AI+ Business Growth Integrated Solutions, Data-Driven Performance Growth",
     "sloganEn": "AI+ Business Growth Integrated Solutions, Data-Driven Performance Growth",
@@ -20,10 +21,10 @@
   "aboutUs": {
     "intro": [
       "We are an AI+ Business Growth integrated solution provider for enterprises across all industries, leveraging cutting-edge artificial intelligence technology and full-chain business data insights to accurately identify business performance growth bottlenecks.",
-      "Our core value lies in breaking the experience dependency of traditional growth models, making data-driven decisions to help enterprises achieve customer acquisition efficiency improvement, conversion chain optimization, customer value deepening, operational cost reduction, renewal continuation, and ultimately achieve sustainable performance growth goals.",
-      "We benchmark against the core logic of the world's top AI business growth service providers. Our system is characterized by 'full data integration, full scenario adaptation, and full-cycle empowerment', covering the full lifecycle growth needs of enterprises from startup to maturity, adapting to multiple industries and scenarios."
+      "What we provide is a \"Business Growth Operating System\" driven by artificial intelligence. We are not just technology providers, but your \"Growth Strategic Partner\" fighting alongside you.",
+      "Our mission is to transform the AI growth paradigms validated by the world's top tech companies into core capabilities that any enterprise can deploy and own, achieving predictable, measurable, and sustainable performance multiplication."
     ],
-    "mission": "Through AI technology and data-driven business growth solutions, help enterprises break the experience dependency of traditional growth models and achieve sustainable performance growth.",
+    "mission": "Transform the AI growth paradigms validated by the world's top tech companies into core capabilities that any enterprise can deploy and own, achieving predictable, measurable, and sustainable performance multiplication.",
     "vision": "To become a world-leading AI business growth service provider, making data-driven decisions to empower enterprises across all industries to achieve sustainable growth.",
     "values": [
       "Equal emphasis on data-driven and intelligent decision-making",
