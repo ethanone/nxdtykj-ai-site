@@ -13,7 +13,6 @@ import {
   Bot,
   Zap,
   TrendingUp,
-  Clock,
 } from "lucide-react";
 import companyDataZh from "@/data/companyData.json";
 import companyDataEn from "@/data/companyData.en.json";
