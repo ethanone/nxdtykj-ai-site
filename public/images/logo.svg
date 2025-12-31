@@ -1,67 +1,82 @@
-<svg width="240" height="70" viewBox="0 0 240 70" xmlns="http://www.w3.org/2000/svg">
+<svg width="260" height="75" viewBox="0 0 260 75" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="logoGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#2563EB;stop-opacity:1" />
       <stop offset="50%" style="stop-color:#7C3AED;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#059669;stop-opacity:1" />
     </linearGradient>
-    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:0.8" />
-      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:0.8" />
+    <linearGradient id="logoGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563EB;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#7C3AED;stop-opacity:1" />
     </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="1" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
   
-  <!-- 左侧：分层架构图标 - 代表四层一体化系统 -->
-  <g id="architecture">
-    <!-- 第四层：管理决策层 -->
-    <rect x="5" y="10" width="35" height="6" rx="2" fill="#DC2626" opacity="0.9"/>
-    <text x="22.5" y="15" font-size="4" fill="white" text-anchor="middle" font-weight="600">决策</text>
+  <!-- 左侧：AI增长大脑图标 - 四层架构 + AI核心 -->
+  <g id="ai-brain-icon">
+    <!-- 四层架构堆叠 -->
+    <g id="layers">
+      <!-- 第一层：数据基础 -->
+      <rect x="3" y="48" width="38" height="10" rx="3" fill="#2563EB" opacity="0.95"/>
+      <text x="22" y="55.5" font-size="5" fill="white" text-anchor="middle" font-weight="700" font-family="system-ui">数据</text>
+      
+      <!-- 第二层：AI引擎 -->
+      <rect x="3" y="36" width="38" height="10" rx="3" fill="#7C3AED" opacity="0.95"/>
+      <text x="22" y="43.5" font-size="5" fill="white" text-anchor="middle" font-weight="700" font-family="system-ui">引擎</text>
+      
+      <!-- 第三层：执行系统 -->
+      <rect x="3" y="24" width="38" height="10" rx="3" fill="#059669" opacity="0.95"/>
+      <text x="22" y="31.5" font-size="5" fill="white" text-anchor="middle" font-weight="700" font-family="system-ui">执行</text>
+      
+      <!-- 第四层：决策管理 -->
+      <rect x="3" y="12" width="38" height="10" rx="3" fill="#DC2626" opacity="0.95"/>
+      <text x="22" y="19.5" font-size="5" fill="white" text-anchor="middle" font-weight="700" font-family="system-ui">决策</text>
+    </g>
     
-    <!-- 第三层：执行系统层 -->
-    <rect x="5" y="20" width="35" height="7" rx="2" fill="#059669" opacity="0.9"/>
-    <text x="22.5" y="25.5" font-size="4" fill="white" text-anchor="middle" font-weight="600">执行</text>
+    <!-- AI核心节点 - 在层之间 -->
+    <circle cx="22" cy="30" r="3.5" fill="url(#logoGrad1)" filter="url(#glow)"/>
+    <circle cx="22" cy="42" r="2.5" fill="#7C3AED" opacity="0.8"/>
+    <circle cx="22" cy="18" r="2.5" fill="#DC2626" opacity="0.8"/>
     
-    <!-- 第二层：智能引擎层 -->
-    <rect x="5" y="31" width="35" height="8" rx="2" fill="#7C3AED" opacity="0.9"/>
-    <text x="22.5" y="37" font-size="4" fill="white" text-anchor="middle" font-weight="600">引擎</text>
-    
-    <!-- 第一层：数据整合层 -->
-    <rect x="5" y="43" width="35" height="9" rx="2" fill="#2563EB" opacity="0.9"/>
-    <text x="22.5" y="49.5" font-size="4" fill="white" text-anchor="middle" font-weight="600">数据</text>
-    
-    <!-- 连接线条 -->
-    <path d="M 22.5 16 L 22.5 20" stroke="#DC2626" stroke-width="1" opacity="0.5"/>
-    <path d="M 22.5 27 L 22.5 31" stroke="#059669" stroke-width="1" opacity="0.5"/>
-    <path d="M 22.5 39 L 22.5 43" stroke="#7C3AED" stroke-width="1" opacity="0.5"/>
+    <!-- 连接线 -->
+    <line x1="22" y1="24" x2="22" y2="27" stroke="url(#logoGrad1)" stroke-width="1" opacity="0.6"/>
+    <line x1="22" y1="33" x2="22" y2="36" stroke="url(#logoGrad1)" stroke-width="1" opacity="0.6"/>
+    <line x1="22" y1="45" x2="22" y2="48" stroke="url(#logoGrad1)" stroke-width="1" opacity="0.6"/>
   </g>
   
-  <!-- 中间：增长曲线和AI节点 -->
-  <g id="growth-ai">
+  <!-- 中间：增长曲线箭头 -->
+  <g id="growth-arrow">
     <!-- 增长曲线 -->
-    <path d="M 50 50 Q 60 40, 70 30 T 90 15" stroke="url(#grad1)" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M 50 55 Q 60 45, 70 35 T 95 15" stroke="url(#logoGrad1)" stroke-width="3.5" fill="none" stroke-linecap="round" filter="url(#glow)"/>
     
-    <!-- AI节点 -->
-    <circle cx="60" cy="40" r="4" fill="#2563EB" opacity="0.8"/>
-    <circle cx="70" cy="30" r="4" fill="#7C3AED" opacity="0.8"/>
-    <circle cx="80" cy="20" r="4" fill="#059669" opacity="0.8"/>
+    <!-- 数据节点 -->
+    <circle cx="60" cy="45" r="3.5" fill="#2563EB" opacity="0.9"/>
+    <circle cx="70" cy="35" r="3.5" fill="#7C3AED" opacity="0.9"/>
+    <circle cx="85" cy="20" r="3.5" fill="#059669" opacity="0.9"/>
     
     <!-- 向上箭头 -->
-    <path d="M 90 15 L 85 20 L 90 17 L 95 20 Z" fill="#059669"/>
+    <path d="M 95 15 L 90 22 L 95 19 L 100 22 Z" fill="#059669"/>
     
-    <!-- 数据点连线 -->
-    <line x1="60" y1="40" x2="70" y2="30" stroke="#2563EB" stroke-width="0.5" opacity="0.3"/>
-    <line x1="70" y1="30" x2="80" y2="20" stroke="#7C3AED" stroke-width="0.5" opacity="0.3"/>
+    <!-- 连接线 -->
+    <line x1="60" y1="45" x2="70" y2="35" stroke="#2563EB" stroke-width="1" opacity="0.4"/>
+    <line x1="70" y1="35" x2="85" y2="20" stroke="#7C3AED" stroke-width="1" opacity="0.4"/>
   </g>
   
   <!-- 右侧：文字标识 -->
   <g id="text">
     <!-- 主标题：AI增长 -->
-    <text x="110" y="30" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="url(#grad2)" letter-spacing="-0.5">AI增长</text>
+    <text x="110" y="32" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="26" font-weight="800" fill="url(#logoGrad2)" letter-spacing="-0.8">AI增长</text>
     
     <!-- 副标题：增长战略合伙人 -->
-    <text x="110" y="45" font-family="system-ui, -apple-system, sans-serif" font-size="10" font-weight="600" fill="#6B7280" letter-spacing="0.5">增长战略合伙人</text>
+    <text x="110" y="48" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="11" font-weight="600" fill="#64748B" letter-spacing="0.8">增长战略合伙人</text>
     
     <!-- 装饰线 -->
-    <line x1="110" y1="50" x2="190" y2="50" stroke="url(#grad2)" stroke-width="1.5" opacity="0.3"/>
+    <line x1="110" y1="53" x2="200" y2="53" stroke="url(#logoGrad2)" stroke-width="2" opacity="0.4"/>
   </g>
 </svg>
