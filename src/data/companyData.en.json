@@ -2,103 +2,273 @@
   "companyInfo": {
     "name": "Chengdu Nixingde Sports Technology Co., Ltd.",
     "nameEn": "Chengdu Nixingde Sports Technology Co., Ltd.",
-    "nameDescription": "Chengdu Nixingde Sports Technology Co., Ltd. is committed to becoming a \"Growth Strategic Partner\" for enterprises. We are not just technology providers, but partners fighting alongside you.",
     "brandName": "AI Growth",
-    "slogan": "AI+ Business Growth Integrated Solutions, Data-Driven Performance Growth",
-    "sloganEn": "AI+ Business Growth Integrated Solutions, Data-Driven Performance Growth",
-    "tagline": "AI Growth · Business Intelligence",
-    "focus": "Growth Diagnosis · Strategy Generation · Execution Implementation · Effect Iteration · Accompaniment for Results",
+    "slogan": "AI Business Growth Operating System, Your Strategic Growth Partner",
+    "sloganEn": "AI Business Growth Operating System, Your Strategic Growth Partner",
+    "tagline": "AI Growth · Strategic Growth Partner",
+    "focus": "Data Integration · AI Engine · Execution System · Decision Management",
     "founded": "2024",
     "website": "www.aizengzhang.work",
     "phone": "18511506521",
     "email": "qyb@aizengzhang.work",
     "emailSecondary": "info@aizengzhang.work",
     "address": "Chengdu, Sichuan, China",
-    "capacity": "AI+ Business Growth Integrated Solutions",
+    "capacity": "AI Business Growth Operating System",
     "responseTime": "Response within 24 hours",
-    "subtitle": "AI+ Business Growth integrated solutions for enterprises across all industries, leveraging cutting-edge artificial intelligence technology and full-chain business data insights to accurately identify business performance growth bottlenecks, providing intelligent services throughout the entire process from growth diagnosis, strategy generation, execution implementation to effect iteration and accompaniment for results."
+    "subtitle": "We provide an AI-driven Business Growth Operating System that transforms proven AI growth paradigms from top global tech companies into deployable core capabilities for any enterprise, achieving predictable, measurable, and sustainable revenue multiplication."
   },
   "aboutUs": {
     "intro": [
-      "We are an AI+ Business Growth integrated solution provider for enterprises across all industries, leveraging cutting-edge artificial intelligence technology and full-chain business data insights to accurately identify business performance growth bottlenecks.",
-      "What we provide is a \"Business Growth Operating System\" driven by artificial intelligence. We are not just technology providers, but your \"Growth Strategic Partner\" fighting alongside you.",
-      "Our mission is to transform the AI growth paradigms validated by the world's top tech companies into core capabilities that any enterprise can deploy and own, achieving predictable, measurable, and sustainable performance multiplication."
+      "What we offer is an AI-powered Business Growth Operating System. We are not just technology providers, but your Strategic Growth Partners fighting alongside you.",
+      "Our mission is: to transform proven AI growth paradigms from top global tech companies into deployable core capabilities for any enterprise, achieving predictable, measurable, and sustainable revenue multiplication.",
+      "Built on a four-layer integrated architecture, from data integration, AI engine, execution system to decision management, every layer serves the growth loop, helping enterprises reduce customer acquisition costs by 20%-40%, improve conversion efficiency by 30%-50%, increase customer retention by 25%-45%, and boost revenue growth by 15%-35%."
     ],
-    "mission": "Transform the AI growth paradigms validated by the world's top tech companies into core capabilities that any enterprise can deploy and own, achieving predictable, measurable, and sustainable performance multiplication.",
-    "vision": "To become a world-leading AI business growth service provider, making data-driven decisions to empower enterprises across all industries to achieve sustainable growth.",
+    "mission": "Transform proven AI growth paradigms from top global tech companies into deployable core capabilities for any enterprise, achieving predictable, measurable, and sustainable revenue multiplication.",
+    "vision": "Become the world's leading AI business growth service provider and strategic growth partner for enterprises.",
     "values": [
       "Equal emphasis on data-driven and intelligent decision-making",
-      "Equal emphasis on full-scenario adaptation and personalized services",
-      "Equal emphasis on strategy generation and execution implementation",
-      "Equal emphasis on effect iteration and continuous accompaniment"
+      "Balance between systematic and personalized services",
+      "Integration of strategy generation and execution implementation",
+      "Predictable and sustainable results"
     ]
+  },
+  "coreTechStack": {
+    "title": "Core Technology Foundation",
+    "subtitle": "Built on three core technology pillars to ensure precision and efficiency of growth strategies",
+    "pillars": [
+      {
+        "name": "Full-Chain Data Integration Engine",
+        "description": "Supports direct integration with enterprise CRM, ERP, e-commerce platforms, marketing tools, user behavior monitoring and other multi-source systems. Through data cleaning, desensitization, and standardization, builds a unified enterprise growth data platform, achieving full-dimensional integration of customer data, transaction data, operational data, and market data, providing high-quality data foundation for AI analysis.",
+        "icon": "Database",
+        "color": "#2563EB"
+      },
+      {
+        "name": "Multi-Dimensional AI Algorithm Engine",
+        "description": "Integrates machine learning, deep learning, natural language processing, predictive analysis and other core algorithms to create a dynamically iterating algorithm model library, covering customer profiling, demand forecasting, behavior path analysis, intelligent recommendation, risk identification and other algorithm models, adapting to decision-making needs in different growth scenarios.",
+        "icon": "Brain",
+        "color": "#7C3AED"
+      },
+      {
+        "name": "Real-Time Intelligent Decision System",
+        "description": "Based on data platform and algorithm engine outputs, builds a millisecond-response decision system that can automatically generate growth strategies and synchronize to various enterprise execution terminals, while monitoring strategy execution effects in real-time and dynamically adjusting parameters to ensure continuous optimization of growth results.",
+        "icon": "Zap",
+        "color": "#059669"
+      }
+    ]
+  },
+  "systemArchitecture": {
+    "title": "Four-Layer Integrated System Architecture",
+    "subtitle": "An integrated four-layer system where each layer serves the growth loop",
+    "layers": [
+      {
+        "name": "Business Data Integration Layer",
+        "level": "Layer 1",
+        "description": "Transform all growth-related enterprise data into AI-understandable language. Integrate and unify CRM/ERP/order systems, market placement data, sales behavior data, customer behavior data, customer service/after-sales/delivery data. Through unified data semantic layer, achieve customer full lifecycle view, channel true ROI attribution, and causal mapping of sales behavior and results.",
+        "icon": "Layers",
+        "color": "#2563EB"
+      },
+      {
+        "name": "Growth Intelligence Engine Layer",
+        "level": "Layer 2",
+        "description": "System brain with core capabilities including: AI growth modeling (automatically establishing customer acquisition → conversion → repurchase → churn causal models), prediction and early warning system (predict revenue 30/60/90 days ahead, automatically identify high-value customers at risk of churning), intelligent decision recommendations (clearly tell enterprises which channels to increase investment, which sales to follow which customers).",
+        "icon": "Cpu",
+        "color": "#7C3AED"
+      },
+      {
+        "name": "Business Execution System Layer",
+        "level": "Layer 3",
+        "description": "Bring AI to the frontline, not just AI suggestions, but AI directly driving execution actions. For sales teams: AI automatically generates customer profiles and deal probability, recommends optimal scripts/follow-up rhythm; For market and growth teams: AI automatically allocates budgets to high-ROI channels, eliminates low-performing content in real-time; For customer success teams: predicts renewal probability, automatically identifies upsell/cross-sell opportunities.",
+        "icon": "Rocket",
+        "color": "#059669"
+      },
+      {
+        "name": "Management and Decision Layer",
+        "level": "Layer 4",
+        "description": "CEO/management dashboard, upgrade from listening to reports to seeing facts + predictions. Real-time revenue forecasts, growth bottleneck identification, personnel efficiency/channel efficiency/customer efficiency visible on one screen. All core decisions supported by AI simulation results, this is true data-driven management.",
+        "icon": "BarChart",
+        "color": "#DC2626"
+      }
+    ]
+  },
+  "coreModules": {
+    "title": "Core Functional Modules",
+    "subtitle": "System forms a growth loop of diagnosis-acquisition-conversion-retention-value enhancement around enterprise performance growth",
+    "modules": [
+      {
+        "name": "Growth Diagnosis and Attribution Module",
+        "description": "Through AI algorithms, deeply analyze enterprise historical planning, architecture, processes, performance, operations, daily behaviors and other data to accurately identify performance growth bottlenecks; simultaneously build multi-dimensional attribution models to clarify contribution of different plans, paths, channels, and strategies to performance, providing overall and detailed optimization support for subsequent growth strategy formulation.",
+        "icon": "Search",
+        "color": "#2563EB"
+      },
+      {
+        "name": "Precision Acquisition and Traffic Optimization Module",
+        "description": "Based on customer profiling, achieve precise positioning and segmentation of target customer groups; intelligently match optimal acquisition channels (such as social media, search engines, offline scenarios, etc.), and automatically generate personalized marketing content (copy, posters, video scripts, etc.); monitor traffic quality and acquisition costs in real-time, dynamically optimize channel placement strategies, improve acquisition efficiency.",
+        "icon": "Users",
+        "color": "#7C3AED"
+      },
+      {
+        "name": "Conversion Path Intelligent Optimization Module",
+        "description": "For enterprise sales conversion full process (such as consultation-quotation-signing, browsing-adding to cart-payment, etc.), analyze user behavior paths through AI, identify conversion key nodes and churn pain points; automatically optimize conversion process (such as simplifying signing process, optimizing pricing strategy), and provide intelligent customer service, personalized recommendations and other real-time assistance tools to improve conversion rate.",
+        "icon": "Target",
+        "color": "#059669"
+      },
+      {
+        "name": "Customer Retention and Value Enhancement Module",
+        "description": "Build customer lifetime value (CLV) prediction model, conduct layered customer operations; automatically generate personalized retention strategies (such as membership benefit customization, repurchase incentives, exclusive service reminders, etc.); simultaneously mine customer cross-purchase and upsell needs, recommend suitable products/services, improve customer lifetime value.",
+        "icon": "Heart",
+        "color": "#DC2626"
+      },
+      {
+        "name": "Growth Risk Intelligent Control Module",
+        "description": "Monitor various risks in performance growth process in real-time (such as abnormal fluctuations in acquisition costs, soaring customer churn rates, intensifying market competition, etc.), provide early warnings through AI algorithms; generate risk response strategies to help enterprises avoid growth traps and ensure growth stability.",
+        "icon": "Shield",
+        "color": "#F59E0B"
+      }
+    ]
+  },
+  "serviceSystem": {
+    "title": "Full-Cycle Empowerment Service System",
+    "subtitle": "Drawing on service models from top global AI business growth companies, build a full-cycle empowerment system of product + service + operation",
+    "services": [
+      {
+        "name": "Standardized Solution Services",
+        "type": "Standard Product",
+        "description": "Provide standardized AI growth solutions for common growth needs of different industries and enterprise scales",
+        "packages": [
+          {
+            "name": "SME 'Lightweight Growth Package'",
+            "description": "Focus on core acquisition and conversion links, provide lightweight data integration, basic AI diagnosis, standardized acquisition strategies and tools, quickly help enterprises start AI growth mode, achieve performance improvement at low cost."
+          },
+          {
+            "name": "Medium-Large Enterprise 'Full-Domain Growth Package'",
+            "description": "Cover full-chain growth links, provide full-dimensional data integration, customized algorithm models, full-domain growth strategy corresponding tools, adapt to complex growth needs of multiple business lines and regions."
+          },
+          {
+            "name": "Industry-Specific Solutions",
+            "description": "For subdivided industries such as retail, catering, education, manufacturing, internet, etc., create exclusive AI growth solutions and tools based on industry characteristics (such as intelligent product selection and precision marketing for retail, student retention and course renewal improvement for education)."
+          }
+        ]
+      },
+      {
+        "name": "Customized Growth Engineering Services",
+        "type": "Customized Product",
+        "description": "Provide customized growth engineering, tools and workflow construction services for personalized and complex growth needs",
+        "process": [
+          {
+            "step": "In-Depth Requirement Research",
+            "description": "Form dedicated team, deeply engage in enterprise business scenarios, comprehensively sort out business processes, growth pain points, core goals, form customized requirement plan."
+          },
+          {
+            "step": "Exclusive Solution Design",
+            "description": "Based on requirement research, custom develop exclusive AI algorithm models, data integration plans, growth strategy systems to ensure deep adaptation to enterprise business."
+          },
+          {
+            "step": "Full-Process Implementation",
+            "description": "Provide full-process services and tools from system deployment, data connection, model training, strategy launch to personnel training to ensure smooth implementation of customized solutions."
+          }
+        ]
+      },
+      {
+        "name": "Full-Cycle Operational Accompaniment Service",
+        "type": "Accompaniment for Results Product",
+        "description": "To ensure sustainability of growth effects, provide full-cycle operational accompaniment services, responsible for enterprise revenue growth data",
+        "features": [
+          {
+            "name": "Real-Time Data Monitoring",
+            "description": "Build exclusive growth dashboard, display core growth indicators in real-time (acquisition cost, conversion rate, repurchase rate, revenue growth speed, etc.), let enterprises clearly grasp growth dynamics."
+          },
+          {
+            "name": "Regular Effect Review",
+            "description": "Output monthly/quarterly growth effect analysis reports, summarize strategy effectiveness, locate optimization spaces, provide iteration suggestions."
+          },
+          {
+            "name": "7×24 Hour Technical Support",
+            "description": "Provide round-the-clock technical services, quickly respond to emergencies such as system failures and data issues, ensure stable system operation."
+          },
+          {
+            "name": "Continuous Capability Empowerment",
+            "description": "Regularly conduct AI growth knowledge training and system operation training to help enterprise teams improve data-driven growth capabilities."
+          }
+        ]
+      }
+    ]
+  },
+  "deliveryModes": {
+    "title": "Delivery Models",
+    "subtitle": "Adapt to enterprises at different stages, provide flexible and diverse delivery methods",
+    "modes": [
+      {
+        "name": "Growth Cloud SaaS Platform",
+        "description": "Provide ready-to-use standardized AI growth tool sets for growing enterprises, quick deployment, pay-per-performance. Suitable for SaaS, chain, platform-type companies. Features: quick launch, standardized best practices, continuous model evolution.",
+        "icon": "Cloud",
+        "color": "#2563EB",
+        "serviceTypes": ["Standard Product", "Customized Product", "Accompaniment for Results Product"]
+      },
+      {
+        "name": "Enterprise-Level Hybrid Deployment",
+        "description": "Provide hybrid solutions combining cloud AI capabilities with localized data deployment for medium-sized enterprises, balancing capabilities and security. Suitable for medium-large enterprises with clear growth goals, willing to systematically reconstruct growth models.",
+        "icon": "Server",
+        "color": "#7C3AED",
+        "serviceTypes": ["Standard Product", "Customized Product", "Accompaniment for Results Product"]
+      },
+      {
+        "name": "Deep Customization and Co-Creation Solution",
+        "description": "Establish joint project teams with large enterprises or industry leaders, deeply co-create industry-specific growth AI models, build strategic moats. We are not just 'service providers', but become enterprise 'growth partners', defining industry growth standards together with you.",
+        "icon": "Handshake",
+        "color": "#059669",
+        "serviceTypes": ["Standard Product", "Customized Product", "Accompaniment for Results Product"]
+      }
+    ]
+  },
+  "applicableScenarios": {
+    "title": "Applicable Scenarios and Value Output",
+    "scenarios": [
+      "Enterprises seeking revenue growth and needing new growth breakthroughs",
+      "Enterprises with high acquisition costs and low efficiency, needing precise target customer positioning",
+      "Enterprises with lengthy sales conversion chains and high churn rates, needing conversion process optimization",
+      "Enterprises with low customer retention and weak repurchase willingness, needing customer value improvement",
+      "Enterprises with declining operational efficiency after business scale expansion, needing intelligent management tools",
+      "Enterprises facing intensifying market competition, needing innovative growth models"
+    ],
+    "valueOutput": {
+      "title": "Enterprise Achievable Value Output",
+      "metrics": [
+        "Reduce acquisition costs by 20%-40%",
+        "Improve conversion efficiency by 30%-50%",
+        "Increase customer retention by 25%-45%",
+        "Boost revenue growth by 15%-35%"
+      ],
+      "outcome": "Ultimately build sustainable intelligent growth capabilities"
+    }
   },
   "coreAdvantages": [
     {
       "icon": "Shield",
-      "title": "Full Data Integration",
-      "description": "Leveraging cutting-edge AI technology, integrating full-chain business data, accurately identifying business performance growth bottlenecks, providing data-driven growth diagnosis.",
-      "highlights": ["Full-chain data", "AI technology", "Accurate diagnosis"]
-    },
-    {
-      "icon": "CheckCircle2",
-      "title": "Full Scenario Adaptation",
-      "description": "Covering the full lifecycle growth needs of enterprises from startup to maturity, adapting to multiple industries and scenarios, providing personalized growth solutions.",
-      "highlights": ["Full lifecycle", "Multi-industry adaptation", "Personalized solutions"]
+      "title": "Full-Chain Data Integration",
+      "description": "Support integration with CRM, ERP, e-commerce platforms and other multi-source systems, build unified enterprise growth data platform, provide high-quality data foundation for AI analysis.",
+      "highlights": ["Multi-Source Integration", "Data Platform", "High-Quality Data"]
     },
     {
       "icon": "Cpu",
-      "title": "Full-Cycle Empowerment",
-      "description": "Providing intelligent services throughout the entire process from growth diagnosis, strategy generation, execution implementation to effect iteration and accompaniment for results.",
-      "highlights": ["Full-process service", "Intelligent execution", "Continuous accompaniment"]
+      "title": "AI Intelligence Engine",
+      "description": "Integrate machine learning, deep learning, predictive analysis and other core algorithms, automatically establish growth causal models, provide intelligent decision recommendations.",
+      "highlights": ["Multi-Dimensional Algorithms", "Predictive Analysis", "Intelligent Decisions"]
     },
     {
-      "icon": "TrendingUp",
-      "title": "Data-Driven Decision Making",
-      "description": "Breaking the experience dependency of traditional growth models, making data-driven decisions to help enterprises achieve customer acquisition efficiency improvement, conversion chain optimization, and customer value deepening.",
-      "highlights": ["Data-driven", "Efficiency improvement", "Value deepening"]
-    }
-  ],
-  "focusAreas": [
-    {
-      "name": "Growth Diagnosis",
-      "icon": "TrendingUp",
-      "description": "Accurately identify performance growth bottlenecks, data-driven analysis",
-      "color": "#2563EB"
+      "icon": "Rocket",
+      "title": "Execution System Drive",
+      "description": "AI directly drives execution actions, not just suggestions. Automatically generates strategies and synchronizes to execution terminals, monitors and optimizes in real-time.",
+      "highlights": ["Auto Execution", "Real-Time Monitoring", "Dynamic Optimization"]
     },
     {
-      "name": "Strategy Generation",
-      "icon": "Sparkles",
-      "description": "AI intelligent generation of personalized growth strategies",
-      "color": "#7C3AED"
-    },
-    {
-      "name": "Execution Implementation",
-      "icon": "FileText",
-      "description": "Full-process execution implementation, ensuring effective strategy implementation",
-      "color": "#059669"
-    },
-    {
-      "name": "Effect Iteration",
-      "icon": "Zap",
-      "description": "Continuous optimization iteration, accompaniment for results",
-      "color": "#DC2626"
-    }
-  ],
-  "serviceModes": [
-    {
-      "name": "Light Consulting",
-      "description": "With solutions and all tools, quickly start growth",
-      "features": ["Complete growth solutions", "Professional tool support", "Quick implementation"]
-    },
-    {
-      "name": "Deep Accompaniment",
-      "description": "Get results for you, share revenue based on results",
-      "features": ["Full-process accompaniment", "Result-oriented", "Pay for performance"]
+      "icon": "BarChart",
+      "title": "Data-Driven Decision-Making",
+      "description": "Upgrade from listening to reports to seeing facts + predictions. All core decisions supported by AI simulation results, achieving true data-driven management.",
+      "highlights": ["Real-Time Forecast", "Bottleneck Identification", "AI Simulation"]
     }
   ],
   "team": {
-    "intro": "We have a professional AI business growth team. Team members have rich business growth practical experience and deep AI technology foundation, committed to providing professional and efficient integrated growth solutions for enterprises.",
+    "intro": "We have a professional AI business growth team. Team members possess rich business growth practical experience and deep AI technology foundation, committed to becoming strategic growth partners fighting alongside enterprises.",
     "leadership": [
       {
         "name": "Qu Yuebin",
@@ -107,130 +277,16 @@
         "titleEn": "Main Contact",
         "avatar": "/images/team/contact.jpg",
         "education": "Business Growth Expert",
-        "background": "Focus on AI+ Business Growth solutions, with rich enterprise growth practical experience",
+        "background": "Focus on AI+ Business Growth solutions, with rich enterprise growth practical experience, helping multiple enterprises achieve revenue multiplication",
         "achievements": [
           "Served multi-industry enterprise growth consulting",
-          "Helped enterprises achieve significant performance improvement",
-          "Customer satisfaction continues to improve"
+          "Helped enterprises achieve 50%+ revenue growth",
+          "Built multiple industry-specific growth models"
         ],
         "expertise": ["Growth Strategy", "Data-Driven", "AI Application", "Business Consulting"]
       }
-    ],
-    "teamSize": {
-      "development": "20+",
-      "research": "10+",
-      "aiAlgorithm": "5+",
-      "advisors": {
-        "medical": "AI Growth Expert",
-        "power": "Business Data Expert",
-        "design": "Growth Strategy Expert"
-      }
-    }
+    ]
   },
-  "caseStudies": [
-    {
-      "id": "case-01",
-      "title": "Full-Chain Growth Diagnosis Case",
-      "subtitle": "Data-driven, accurately identify growth bottlenecks",
-      "category": "Growth Diagnosis",
-      "icon": "TrendingUp",
-      "color": "#2563EB",
-      "technologies": ["Data Integration", "AI Analysis", "Growth Diagnosis"],
-      "painPoint": "Enterprises face performance growth bottlenecks, lack data-driven growth diagnosis tools, and cannot accurately identify problems.",
-      "features": [
-        {
-          "name": "Full-Chain Data Integration",
-          "description": "Integrate enterprise full-chain business data, build complete data view, provide data foundation for growth diagnosis"
-        },
-        {
-          "name": "AI Intelligent Analysis",
-          "description": "Use cutting-edge AI technology to accurately identify enterprise performance growth bottlenecks and identify key problem points"
-        },
-        {
-          "name": "Diagnosis Report",
-          "description": "Provide detailed growth diagnosis report, clarify growth opportunities and optimization directions"
-        }
-      ],
-      "outcome": "Helped enterprises accurately identify growth bottlenecks, identify key optimization points, provide data support for subsequent growth strategy formulation, customer satisfaction significantly improved.",
-      "image": "/images/case-growth-diagnosis.webp"
-    },
-    {
-      "id": "case-02",
-      "title": "AI Strategy Generation and Execution",
-      "subtitle": "Full-process service from strategy to implementation",
-      "category": "Strategy Execution",
-      "icon": "CheckCircle2",
-      "color": "#7C3AED",
-      "technologies": ["Strategy Generation", "Execution Implementation", "Effect Tracking"],
-      "painPoint": "Enterprises lack professional growth strategy formulation capabilities, and even with strategies, it is difficult to effectively implement them.",
-      "features": [
-        {
-          "name": "Intelligent Strategy Generation",
-          "description": "Based on AI technology, combined with enterprise actual situation, generate personalized growth strategy solutions"
-        },
-        {
-          "name": "Execution Implementation Support",
-          "description": "Provide full-process execution implementation support to ensure effective strategy implementation"
-        },
-        {
-          "name": "Effect Tracking Iteration",
-          "description": "Continuously track strategy execution effects, timely optimize iteration, ensure achievement of growth goals"
-        }
-      ],
-      "outcome": "Helped enterprises achieve 30% customer acquisition efficiency improvement, 40% conversion chain optimization, 25% customer value deepening, achieving sustainable performance growth goals.",
-      "image": "/images/case-strategy-execution.webp"
-    },
-    {
-      "id": "case-03",
-      "title": "Deep Accompaniment Service",
-      "subtitle": "Share revenue based on results, accompaniment for results",
-      "category": "Deep Accompaniment",
-      "icon": "Home",
-      "color": "#059669",
-      "technologies": ["Full-Process Accompaniment", "Result-Oriented", "Pay for Performance"],
-      "features": [
-        {
-          "name": "Full-Process Accompaniment",
-          "description": "From growth diagnosis to strategy execution, accompany enterprise growth throughout, ensure every step is correct"
-        },
-        {
-          "name": "Result-Oriented",
-          "description": "Result-oriented, focus on helping enterprises achieve quantifiable performance growth"
-        },
-        {
-          "name": "Pay for Performance",
-          "description": "Share revenue based on results, share risks with enterprises, share growth results"
-        }
-      ],
-      "outcome": "Through deep accompaniment service, helped enterprises achieve more than 50% performance growth, 30% operational cost reduction, 40% renewal rate improvement, highly recognized by customers.",
-      "image": "/images/case-deep-accompaniment.webp"
-    },
-    {
-      "id": "case-04",
-      "title": "Multi-Industry Adaptation Case",
-      "subtitle": "Full-scenario adaptation, personalized services",
-      "category": "Industry Adaptation",
-      "icon": "FileText",
-      "color": "#DC2626",
-      "technologies": ["Multi-Industry Adaptation", "Scenario Customization", "Personalized Solutions"],
-      "features": [
-        {
-          "name": "Industry Adaptation",
-          "description": "Adapt to multiple industries and scenarios, provide customized growth solutions for enterprises in different industries"
-        },
-        {
-          "name": "Scenario Customization",
-          "description": "According to enterprise different development stages and scenario needs, provide personalized growth strategies"
-        },
-        {
-          "name": "Continuous Optimization",
-          "description": "Continuously track industry trends, optimize growth solutions, ensure solutions are always effective"
-        }
-      ],
-      "outcome": "Successfully served enterprises in multiple industries, covering full lifecycle growth needs from startup to maturity, customer satisfaction continues to improve.",
-      "image": "/images/case-multi-industry.webp"
-    }
-  ],
   "contact": {
     "phone": "18511506521",
     "email": "qyb@aizengzhang.work",
@@ -245,7 +301,7 @@
       "Free growth diagnosis consulting",
       "Get AI growth solution materials",
       "Schedule 1-on-1 consultation with professional consultants",
-      "Learn about latest services and success cases"
+      "Learn about system demos and success cases"
     ]
   }
 }
