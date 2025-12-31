@@ -100,12 +100,21 @@ export default function HomePage() {
               <div className="relative h-10 sm:h-12 md:h-14 w-auto">
                 <Image
                   src="/images/logo.svg"
+<<<<<<< HEAD
                   alt={companyData.companyInfo.name}
                   width={180}
                   height={50}
                   className="object-contain h-full w-auto"
                   priority
                   sizes="(max-width: 640px) 120px, (max-width: 768px) 150px, 180px"
+=======
+                  alt="成都你行的体育科技有限公司"
+                  width={260}
+                  height={75}
+                  className="object-contain h-full w-auto"
+                  priority
+                  sizes="(max-width: 640px) 128px, (max-width: 768px) 160px, 260px"
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                 />
               </div>
             </motion.div>
@@ -113,6 +122,7 @@ export default function HomePage() {
             <motion.div 
               initial={{ opacity: 0, x: 20 }}
               animate={{ opacity: 1, x: 0 }}
+<<<<<<< HEAD
               transition={{ duration: 0.5, ease: "easeOut" }}
               className="hidden md:flex items-center space-x-4 text-sm"
             >
@@ -121,6 +131,16 @@ export default function HomePage() {
                 <span>{companyData.contact.phone}</span>
               </a>
               <a href={`mailto:${companyData.contact.email}`} className="flex items-center space-x-2 text-gray-600 hover:text-primary transition-colors">
+=======
+              transition={{ duration: 0.5, delay: 0.2 }}
+              className="hidden md:flex items-center gap-4 text-sm"
+            >
+              <a href={`tel:${companyData.contact.phone}`} className="flex items-center gap-2 text-gray-600 hover:text-primary transition-colors">
+                <Phone className="w-4 h-4" />
+                <span>{companyData.contact.phone}</span>
+              </a>
+              <a href={`mailto:${companyData.contact.email}`} className="flex items-center gap-2 text-gray-600 hover:text-primary transition-colors">
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                 <Mail className="w-4 h-4" />
                 <span className="hidden lg:inline">{companyData.contact.email}</span>
               </a>
@@ -141,8 +161,19 @@ export default function HomePage() {
       <FloatingChatButton onClick={() => setIsChatModalOpen(true)} />
 
       {/* Hero Section */}
+<<<<<<< HEAD
       <section className="min-h-screen flex items-center justify-center px-4 py-20 pt-32 sm:pt-40 bg-gradient-to-br from-blue-50/30 via-white to-purple-50/30">
         <div className="container mx-auto max-w-6xl text-center">
+=======
+      <section className="min-h-screen flex items-center justify-center px-4 py-20 pt-32 sm:pt-40 relative overflow-hidden">
+        {/* 背景装饰 */}
+        <div className="absolute inset-0 overflow-hidden pointer-events-none">
+          <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-primary/5 rounded-full blur-3xl"></div>
+          <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-secondary/5 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div className="container mx-auto max-w-6xl text-center relative z-10">
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
           <motion.div {...fadeInUp}>
             {/* 标签 */}
             <motion.div 
@@ -210,7 +241,11 @@ export default function HomePage() {
               <Button 
                 size="lg" 
                 onClick={() => setIsChatModalOpen(true)}
+<<<<<<< HEAD
                 className="px-12 py-7 text-lg font-semibold tracking-wide w-full sm:w-auto min-h-[64px] bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white shadow-xl hover:shadow-2xl transition-all"
+=======
+                className="cta-button px-12 py-7 text-lg font-semibold tracking-wide w-full sm:w-auto min-h-[64px] shadow-xl hover:shadow-2xl transition-all bg-gradient-to-r from-primary to-secondary hover:from-primary/90 hover:to-secondary/90"
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
               >
                 <Bot className="w-6 h-6 mr-3" />
                 {language === 'zh' ? '开始咨询' : 'Start Consulting'}
@@ -219,7 +254,11 @@ export default function HomePage() {
                 size="lg" 
                 variant="outline" 
                 onClick={() => setIsProjectModalOpen(true)}
+<<<<<<< HEAD
                 className="px-12 py-7 text-lg font-semibold tracking-wide w-full sm:w-auto min-h-[64px] border-2 border-gray-300 hover:border-primary"
+=======
+                className="secondary-button px-12 py-7 text-lg font-semibold tracking-wide w-full sm:w-auto min-h-[64px] border-2 hover:bg-gray-50"
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
               >
                 {language === 'zh' ? '了解更多' : 'Learn More'}
               </Button>
@@ -227,13 +266,19 @@ export default function HomePage() {
 
             {/* 特性卡片 */}
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+<<<<<<< HEAD
               {companyData.focusAreas.map((area, index) => {
                 const Icon = iconMap[area.icon] || TrendingUp;
+=======
+              {companyData.coreAdvantages.map((advantage: any, index: number) => {
+                const IconComponent = iconMap[advantage.icon] || TrendingUp;
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                 return (
                   <motion.div
                     key={index}
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
+<<<<<<< HEAD
                     transition={{ delay: 0.8 + index * 0.1, duration: 0.5 }}
                     viewport={{ once: true }}
                     className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-primary/20"
@@ -249,6 +294,23 @@ export default function HomePage() {
                     </h3>
                     <p className="text-gray-600 text-base text-center leading-relaxed">
                       {area.description}
+=======
+                    transition={{ delay: 0.7 + index * 0.1, duration: 0.5 }}
+                    viewport={{ once: true }}
+                    className="bg-white/80 backdrop-blur-sm rounded-3xl p-8 shadow-xl hover:shadow-2xl transition-all duration-300 border border-gray-100 hover:border-primary/20 group"
+                  >
+                    <div 
+                      className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6 mx-auto group-hover:scale-110 transition-transform"
+                      style={{ backgroundColor: advantage.color + '15' }}
+                    >
+                      <IconComponent className="w-8 h-8" style={{ color: advantage.color }} />
+                    </div>
+                    <h3 className="text-2xl font-bold text-gray-900 mb-3 text-center">
+                      {advantage.title}
+                    </h3>
+                    <p className="text-gray-600 text-base text-center leading-relaxed">
+                      {advantage.description}
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                     </p>
                   </motion.div>
                 );
@@ -258,21 +320,37 @@ export default function HomePage() {
         </div>
       </section>
 
+<<<<<<< HEAD
       {/* 核心技术底座 */}
       {companyData.coreTechStack && (
         <section className="py-24 px-4 bg-white">
           <div className="container mx-auto max-w-7xl">
             <motion.div {...fadeInUp} className="text-center mb-16">
               <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+=======
+      {/* 核心技术底座 Section */}
+      {companyData.coreTechStack && (
+        <section className="py-20 px-4 bg-gradient-to-b from-white to-gray-50/50">
+          <div className="container mx-auto max-w-7xl">
+            <motion.div {...fadeInUp} className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                 {companyData.coreTechStack.title}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 {companyData.coreTechStack.subtitle}
               </p>
             </motion.div>
+<<<<<<< HEAD
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               {companyData.coreTechStack.pillars.map((pillar, index) => {
                 const Icon = iconMap[pillar.icon] || Database;
+=======
+            
+            <div className="grid md:grid-cols-3 gap-8">
+              {companyData.coreTechStack.pillars.map((pillar: any, index: number) => {
+                const IconComponent = iconMap[pillar.icon] || Database;
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                 return (
                   <motion.div
                     key={index}
@@ -280,6 +358,7 @@ export default function HomePage() {
                     whileInView={{ opacity: 1, y: 0 }}
                     transition={{ delay: index * 0.1, duration: 0.5 }}
                     viewport={{ once: true }}
+<<<<<<< HEAD
                     className="bg-gradient-to-br from-gray-50 to-white rounded-3xl p-8 shadow-lg hover:shadow-2xl transition-all border border-gray-200"
                   >
                     <div className="w-16 h-16 rounded-2xl flex items-center justify-center mb-6" style={{ backgroundColor: pillar.color + '15' }}>
@@ -287,6 +366,19 @@ export default function HomePage() {
                     </div>
                     <h3 className="text-2xl font-bold text-gray-900 mb-4">{pillar.name}</h3>
                     <p className="text-gray-600 leading-relaxed">{pillar.description}</p>
+=======
+                    className="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all border border-gray-100 group"
+                  >
+                    <div className="w-14 h-14 rounded-xl flex items-center justify-center mb-6" style={{ backgroundColor: pillar.color + '15' }}>
+                      <IconComponent className="w-7 h-7" style={{ color: pillar.color }} />
+                    </div>
+                    <h3 className="text-xl font-bold text-gray-900 mb-4" style={{ color: pillar.color }}>
+                      {pillar.name}
+                    </h3>
+                    <p className="text-gray-600 leading-relaxed">
+                      {pillar.description}
+                    </p>
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                   </motion.div>
                 );
               })}
@@ -295,6 +387,7 @@ export default function HomePage() {
         </section>
       )}
 
+<<<<<<< HEAD
       {/* 核心功能模块 */}
       {companyData.coreModules && (
         <section className="py-24 px-4 bg-gradient-to-b from-white to-gray-50">
@@ -338,15 +431,30 @@ export default function HomePage() {
           <div className="container mx-auto max-w-7xl">
             <motion.div {...fadeInUp} className="text-center mb-16">
               <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-4">
+=======
+      {/* 四层系统架构 Section */}
+      {companyData.systemArchitecture && (
+        <section className="py-20 px-4 bg-white">
+          <div className="container mx-auto max-w-7xl">
+            <motion.div {...fadeInUp} className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                 {companyData.systemArchitecture.title}
               </h2>
               <p className="text-xl text-gray-600 max-w-3xl mx-auto">
                 {companyData.systemArchitecture.subtitle}
               </p>
             </motion.div>
+<<<<<<< HEAD
             <div className="space-y-6">
               {companyData.systemArchitecture.layers.map((layer, index) => {
                 const Icon = iconMap[layer.icon] || Layers;
+=======
+            
+            <div className="space-y-6">
+              {companyData.systemArchitecture.layers.map((layer: any, index: number) => {
+                const IconComponent = iconMap[layer.icon] || Layers;
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                 return (
                   <motion.div
                     key={index}
@@ -354,6 +462,7 @@ export default function HomePage() {
                     whileInView={{ opacity: 1, x: 0 }}
                     transition={{ delay: index * 0.1, duration: 0.5 }}
                     viewport={{ once: true }}
+<<<<<<< HEAD
                     className="bg-gradient-to-r from-gray-50 to-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all border-l-4"
                     style={{ borderLeftColor: layer.color }}
                   >
@@ -364,6 +473,21 @@ export default function HomePage() {
                       <div className="flex-1">
                         <div className="flex items-center space-x-3 mb-2">
                           <span className="text-sm font-semibold text-gray-500">{layer.level}</span>
+=======
+                    className="bg-gradient-to-r from-gray-50 to-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all border-2 border-gray-200 hover:border-primary/30 group"
+                  >
+                    <div className="flex items-start gap-6">
+                      <div className="flex-shrink-0">
+                        <div className="w-16 h-16 rounded-xl flex items-center justify-center" style={{ backgroundColor: layer.color + '15' }}>
+                          <IconComponent className="w-8 h-8" style={{ color: layer.color }} />
+                        </div>
+                      </div>
+                      <div className="flex-1">
+                        <div className="flex items-center gap-3 mb-3">
+                          <span className="px-4 py-1 rounded-full text-sm font-semibold text-white" style={{ backgroundColor: layer.color }}>
+                            {layer.level}
+                          </span>
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                           <h3 className="text-2xl font-bold text-gray-900">{layer.name}</h3>
                         </div>
                         <p className="text-gray-600 leading-relaxed">{layer.description}</p>
@@ -377,6 +501,7 @@ export default function HomePage() {
         </section>
       )}
 
+<<<<<<< HEAD
       {/* 服务体系 */}
       {companyData.serviceSystem && (
         <section className="py-24 px-4 bg-gradient-to-b from-gray-50 to-white">
@@ -493,10 +618,33 @@ export default function HomePage() {
                     <li key={index} className="flex items-start space-x-3">
                       <div className="w-2 h-2 rounded-full bg-blue-600 mt-2 flex-shrink-0"></div>
                       <span className="text-gray-700">{scenario}</span>
+=======
+      {/* 价值产出 Section */}
+      {companyData.applicableScenarios && (
+        <section className="py-20 px-4 bg-gradient-to-b from-gray-50/50 to-white">
+          <div className="container mx-auto max-w-7xl">
+            <motion.div {...fadeInUp} className="text-center mb-16">
+              <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+                {companyData.applicableScenarios.title}
+              </h2>
+            </motion.div>
+            
+            <div className="grid md:grid-cols-2 gap-8 mb-12">
+              <motion.div {...fadeInUp} className="bg-white rounded-2xl p-8 shadow-lg">
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                  {language === 'zh' ? '适用场景' : 'Applicable Scenarios'}
+                </h3>
+                <ul className="space-y-4">
+                  {companyData.applicableScenarios.scenarios.map((scenario: string, idx: number) => (
+                    <li key={idx} className="flex items-start text-gray-700">
+                      <span className="text-primary mr-3 mt-1">✓</span>
+                      <span>{scenario}</span>
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                     </li>
                   ))}
                 </ul>
               </motion.div>
+<<<<<<< HEAD
               <motion.div {...fadeInUp} className="bg-gradient-to-br from-blue-50 to-purple-50 rounded-3xl p-8 shadow-lg">
                 <h3 className="text-2xl font-bold text-gray-900 mb-6">{companyData.applicableScenarios.valueOutput.title}</h3>
                 <div className="grid grid-cols-2 gap-4 mb-6">
@@ -507,6 +655,21 @@ export default function HomePage() {
                   ))}
                 </div>
                 <p className="text-gray-700 font-semibold text-center">
+=======
+              
+              <motion.div {...fadeInUp} className="bg-gradient-to-br from-primary/5 to-secondary/5 rounded-2xl p-8 shadow-lg border-2 border-primary/20">
+                <h3 className="text-2xl font-bold text-gray-900 mb-6">
+                  {companyData.applicableScenarios.valueOutput.title}
+                </h3>
+                <div className="grid grid-cols-2 gap-4 mb-6">
+                  {companyData.applicableScenarios.valueOutput.metrics.map((metric: string, idx: number) => (
+                    <div key={idx} className="bg-white rounded-xl p-4 text-center shadow-sm">
+                      <p className="text-sm font-bold text-primary">{metric}</p>
+                    </div>
+                  ))}
+                </div>
+                <p className="text-gray-700 text-center font-medium">
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                   {companyData.applicableScenarios.valueOutput.outcome}
                 </p>
               </motion.div>
@@ -517,6 +680,7 @@ export default function HomePage() {
 
       {/* Footer */}
       <footer className="py-12 px-4 bg-gray-900 text-white">
+<<<<<<< HEAD
         <div className="container mx-auto max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             <div>
@@ -527,12 +691,30 @@ export default function HomePage() {
               <h4 className="text-lg font-semibold mb-4">联系方式</h4>
               <div className="space-y-2 text-sm text-gray-400">
                 <p className="flex items-center space-x-2">
+=======
+        <div className="container mx-auto max-w-6xl">
+          <div className="grid md:grid-cols-3 gap-8 mb-8">
+            <div>
+              <h3 className="text-lg font-semibold mb-4">{companyData.companyInfo.name}</h3>
+              <p className="text-gray-400 text-sm leading-relaxed">
+                {companyData.companyInfo.subtitle}
+              </p>
+            </div>
+            <div>
+              <h3 className="text-lg font-semibold mb-4">{language === 'zh' ? '联系方式' : 'Contact'}</h3>
+              <div className="space-y-2 text-sm text-gray-400">
+                <p className="flex items-center gap-2">
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                   <Phone className="w-4 h-4" />
                   <a href={`tel:${companyData.contact.phone}`} className="hover:text-white transition-colors">
                     {companyData.contact.phone}
                   </a>
                 </p>
+<<<<<<< HEAD
                 <p className="flex items-center space-x-2">
+=======
+                <p className="flex items-center gap-2">
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
                   <Mail className="w-4 h-4" />
                   <a href={`mailto:${companyData.contact.email}`} className="hover:text-white transition-colors">
                     {companyData.contact.email}
@@ -542,12 +724,18 @@ export default function HomePage() {
               </div>
             </div>
             <div>
+<<<<<<< HEAD
               <h4 className="text-lg font-semibold mb-4">服务</h4>
               <ul className="space-y-2 text-sm text-gray-400">
                 {companyData.contact.services.map((service, index) => (
                   <li key={index}>{service}</li>
                 ))}
               </ul>
+=======
+              <h3 className="text-lg font-semibold mb-4">{language === 'zh' ? '服务时间' : 'Working Hours'}</h3>
+              <p className="text-sm text-gray-400">{companyData.contact.workingHours}</p>
+              <p className="text-sm text-gray-400 mt-2">{companyData.contact.responseTime}</p>
+>>>>>>> 77fdfb941558163797aa35d3810227aeba40a679
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 text-center text-sm text-gray-400">
