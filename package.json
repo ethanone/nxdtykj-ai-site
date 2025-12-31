@@ -1,12 +1,12 @@
 {
-  "name": "hrwl-ai-site",
+  "name": "nxdtykj-ai-site",
   "version": "1.0.0",
   "private": true,
-  "description": "海南汇融未来有限公司官网 - 专业企业一站式服务平台 - Built with Next.js 16, React 19, TypeScript, and Tailwind CSS",
+  "description": "成都你行的体育科技有限公司官网 - AI+商业增长一体化解决方案 - Built with Next.js 16, React 19, TypeScript, and Tailwind CSS",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethanone/hrwl-ai-site.git"
+    "url": "https://github.com/ethanone/nxdtykj-ai-site.git"
   },
   "scripts": {
     "dev": "next dev",

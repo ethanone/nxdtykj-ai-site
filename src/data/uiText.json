@@ -16,33 +16,33 @@
   },
   "solutions": {
     "badge": "核心服务能力",
-    "title": "为企业提供专业的一站式服务",
-    "titleHighlight": "专业·高效·可靠",
-    "subtitle": "提供财税咨询、工商注册、税务筹划、财务代理等全方位企业服务，助力企业合规经营、降本增效。"
+    "title": "为企业提供AI+商业增长一体化解决方案",
+    "titleHighlight": "数据驱动·智能决策·全流程服务",
+    "subtitle": "提供从增长诊断、策略生成、执行落地到效果迭代、陪跑拿结果等的全流程智能化服务，帮助企业实现可持续的业绩增长。"
   },
   "focusAreas": {
     "badge": "核心服务领域",
     "title": "我们的",
     "titleHighlight": "专业领域",
-    "subtitle": "致力于为企业提供专业的财税咨询和一站式服务"
+    "subtitle": "致力于为企业提供专业的AI+商业增长解决方案"
   },
   "dataSystem": {
     "badge": "专业服务",
-    "title": "基于海南自贸区政策优势",
-    "titleHighlight": "专业服务·政策优势",
-    "subtitle": "深度了解海南自贸区各项优惠政策，结合专业财税知识，为企业提供精准可靠的服务。"
+    "title": "基于前沿AI技术与全链路数据洞察",
+    "titleHighlight": "AI技术·数据驱动·智能增长",
+    "subtitle": "依托前沿人工智能技术与全链路商业数据洞察，精准定位企业业绩增长瓶颈，提供数据驱动的增长解决方案。"
   },
   "about": {
     "badge": "关于我们",
     "title": "专注于",
-    "titleHighlight": "企业一站式服务",
+    "titleHighlight": "AI+商业增长",
     "coreGoal": "核心使命",
     "vision": "愿景"
   },
   "advantages": {
     "badge": "核心优势",
     "title": "为什么选择",
-    "titleHighlight": "海南汇融未来"
+    "titleHighlight": "我们"
   },
   "team": {
     "badge": "专业团队",
@@ -51,16 +51,16 @@
   },
   "testimonials": {
     "badge": "客户案例",
-    "title": "服务500+企业的专业服务",
-    "titleHighlight": "专业服务·客户信赖",
-    "subtitle": "我们致力于通过专业的财税咨询和一站式服务，帮助企业合规经营、降本增效。"
+    "title": "服务全行业企业的AI增长解决方案",
+    "titleHighlight": "AI增长·客户信赖",
+    "subtitle": "我们致力于通过AI技术与数据驱动的商业增长解决方案，帮助企业实现可持续的业绩增长。"
   },
   "cases": {
     "badge": "成功案例",
-    "title": "企业服务的",
+    "title": "AI增长的",
     "titleHighlight": "实践应用",
-    "subtitle": "专业服务与政策优势深度融合，为客户创造实实在在的价值",
-    "technologies": "核心服务",
+    "subtitle": "AI技术与商业增长深度融合，为客户创造实实在在的价值",
+    "technologies": "核心技术",
     "painPoint": "痛点: ",
     "features": "核心功能",
     "outcome": "项目成果"
@@ -70,7 +70,7 @@
     "title": "与我们的专业顾问取得联系",
     "titleHighlight": "从免费咨询开始",
     "titleSuffix": "",
-    "subtitle": "申请免费财税咨询，获取自贸区政策资料，并了解最新服务和成功案例。",
+    "subtitle": "申请免费增长诊断咨询，获取AI增长方案资料，并了解最新服务和成功案例。",
     "phoneLabel": "电话",
     "emailLabel": "邮箱",
     "addressLabel": "地址",
@@ -88,6 +88,6 @@
     "contact": "联系我们",
     "allRightsReserved": "版权所有",
     "foundedIn": "成立于",
-    "focusOn": "专注于企业一站式服务"
+    "focusOn": "专注于AI+商业增长解决方案"
   }
 }

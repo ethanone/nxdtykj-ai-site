@@ -75,10 +75,10 @@ export default function HomePage() {
             >
               <div className="relative h-12 sm:h-14 md:h-16 w-auto">
                 <Image
-                  src="/images/logo.png"
-                  alt="海南汇融未来有限公司"
-                  width={320}
-                  height={322}
+                  src="/images/logo.svg"
+                  alt="成都你行的体育科技有限公司"
+                  width={200}
+                  height={60}
                   className="object-contain h-full w-auto"
                   priority
                   sizes="(max-width: 640px) 128px, (max-width: 768px) 160px, 200px"
@@ -125,7 +125,7 @@ export default function HomePage() {
               className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold mb-8 leading-[1.1] tracking-tight"
             >
               <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-                海南汇融未来
+                AI增长
               </span>
             </motion.h1>
 
@@ -178,22 +178,22 @@ export default function HomePage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
               {[
                 {
-                  icon: Clock,
-                  title: language === 'zh' ? '专业财税团队' : 'Professional Team',
-                  desc: language === 'zh' ? '资深注册会计师、税务师' : 'Certified Public Accountants & Tax Agents',
-                  color: '#8B2F39'
+                  icon: TrendingUp,
+                  title: language === 'zh' ? '全数据整合' : 'Full Data Integration',
+                  desc: language === 'zh' ? 'AI技术驱动，精准定位增长瓶颈' : 'AI-driven, accurately identify growth bottlenecks',
+                  color: '#2563EB'
                 },
                 {
                   icon: Zap,
-                  title: language === 'zh' ? '一站式服务' : 'One-Stop Service',
-                  desc: language === 'zh' ? '从注册到运营全流程' : 'Full-process from registration to operation',
-                  color: '#6B4C7A'
+                  title: language === 'zh' ? '全场景适配' : 'Full Scenario Adaptation',
+                  desc: language === 'zh' ? '覆盖全生命周期，适配多行业多场景' : 'Cover full lifecycle, adapt to multiple industries and scenarios',
+                  color: '#7C3AED'
                 },
                 {
-                  icon: TrendingUp,
-                  title: language === 'zh' ? '自贸区优势' : 'Free Trade Zone',
-                  desc: language === 'zh' ? '深度了解政策红利' : 'Deep understanding of policy benefits',
-                  color: '#C9A872'
+                  icon: Bot,
+                  title: language === 'zh' ? '全周期赋能' : 'Full-Cycle Empowerment',
+                  desc: language === 'zh' ? '从诊断到执行，陪跑拿结果' : 'From diagnosis to execution, accompaniment for results',
+                  color: '#059669'
                 },
               ].map((feature, index) => (
                 <motion.div

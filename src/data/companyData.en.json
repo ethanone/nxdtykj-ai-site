@@ -1,145 +1,118 @@
 {
   "companyInfo": {
-    "name": "Hainan Huirong Future Co., Ltd.",
-    "nameEn": "Hainan Huirong Future Co., Ltd.",
-    "brandName": "Huirong Future",
-    "slogan": "Professional One-Stop Enterprise Services, Empowering Hainan Free Trade Zone Enterprises",
-    "sloganEn": "Professional One-Stop Enterprise Services, Empowering Hainan Free Trade Zone Enterprises",
-    "tagline": "Enterprise Services · Financial & Tax Consulting",
-    "focus": "Financial & Tax Consulting · Business Registration · Tax Planning · Financial Agency · One-Stop Enterprise Services",
-    "founded": "2020",
-    "website": "www.hrwl-ai.com",
-    "phone": "0898-XXXX-XXXX",
-    "email": "contact@hrwl-ai.com",
-    "emailSecondary": "info@hrwl-ai.com",
-    "address": "Haikou, Hainan, China",
-    "capacity": "Comprehensive enterprise services and financial & tax consulting",
-    "responseTime": "Response within 2 business days",
-    "subtitle": "Providing comprehensive financial & tax consulting, business registration, tax planning, financial agency and other one-stop professional services for enterprises. Deeply rooted in Hainan Free Trade Zone, helping enterprises operate compliantly, reduce costs and improve efficiency."
+    "name": "Chengdu Nixingde Sports Technology Co., Ltd.",
+    "nameEn": "Chengdu Nixingde Sports Technology Co., Ltd.",
+    "brandName": "AI Growth",
+    "slogan": "AI+ Business Growth Integrated Solutions, Data-Driven Performance Growth",
+    "sloganEn": "AI+ Business Growth Integrated Solutions, Data-Driven Performance Growth",
+    "tagline": "AI Growth · Business Intelligence",
+    "focus": "Growth Diagnosis · Strategy Generation · Execution Implementation · Effect Iteration · Accompaniment for Results",
+    "founded": "2024",
+    "website": "www.aizengzhang.work",
+    "phone": "18511506521",
+    "email": "contact@aizengzhang.work",
+    "emailSecondary": "info@aizengzhang.work",
+    "address": "Chengdu, Sichuan, China",
+    "capacity": "AI+ Business Growth Integrated Solutions",
+    "responseTime": "Response within 24 hours",
+    "subtitle": "AI+ Business Growth integrated solutions for enterprises across all industries, leveraging cutting-edge artificial intelligence technology and full-chain business data insights to accurately identify business performance growth bottlenecks, providing intelligent services throughout the entire process from growth diagnosis, strategy generation, execution implementation to effect iteration and accompaniment for results."
   },
   "aboutUs": {
     "intro": [
-      "Hainan Huirong Future Co., Ltd. is a professional institution focusing on one-stop enterprise services. With years of deep focus on Hainan Free Trade Zone, we deeply understand enterprises' needs and challenges in financial & tax management, business registration, tax planning and other aspects.",
-      "We have an experienced professional team providing full-process services from registration to daily operations, helping enterprises operate compliantly, reduce tax burden and improve efficiency.",
-      "The company adheres to the service philosophy of 'Professional, Efficient, Honest, Innovative', committed to becoming the most trusted enterprise service partner in Hainan Free Trade Zone."
+      "We are an AI+ Business Growth integrated solution provider for enterprises across all industries, leveraging cutting-edge artificial intelligence technology and full-chain business data insights to accurately identify business performance growth bottlenecks.",
+      "Our core value lies in breaking the experience dependency of traditional growth models, making data-driven decisions to help enterprises achieve customer acquisition efficiency improvement, conversion chain optimization, customer value deepening, operational cost reduction, renewal continuation, and ultimately achieve sustainable performance growth goals.",
+      "We benchmark against the core logic of the world's top AI business growth service providers. Our system is characterized by 'full data integration, full scenario adaptation, and full-cycle empowerment', covering the full lifecycle growth needs of enterprises from startup to maturity, adapting to multiple industries and scenarios."
     ],
-    "mission": "Through professional financial & tax consulting and one-stop enterprise services, help Hainan Free Trade Zone enterprises operate compliantly, reduce costs and improve efficiency, empowering enterprises to achieve high-quality development.",
-    "vision": "To become the most professional and trusted one-stop enterprise service platform in Hainan Free Trade Zone, empowering enterprise development with professional services.",
+    "mission": "Through AI technology and data-driven business growth solutions, help enterprises break the experience dependency of traditional growth models and achieve sustainable performance growth.",
+    "vision": "To become a world-leading AI business growth service provider, making data-driven decisions to empower enterprises across all industries to achieve sustainable growth.",
     "values": [
-      "Equal emphasis on professionalism and service",
-      "Equal emphasis on compliant operation and cost reduction",
-      "Equal emphasis on theoretical methods and practical experience",
-      "Equal emphasis on continuous learning and customer satisfaction"
+      "Equal emphasis on data-driven and intelligent decision-making",
+      "Equal emphasis on full-scenario adaptation and personalized services",
+      "Equal emphasis on strategy generation and execution implementation",
+      "Equal emphasis on effect iteration and continuous accompaniment"
     ]
   },
   "coreAdvantages": [
     {
       "icon": "Shield",
-      "title": "Professional Financial & Tax Team",
-      "description": "Have senior certified public accountants, tax agents and other professional qualified personnel, familiar with Hainan Free Trade Zone financial & tax policies, providing precise financial & tax consulting and planning services for enterprises.",
-      "highlights": ["Professional qualification", "Policy familiarity", "Precise service"]
+      "title": "Full Data Integration",
+      "description": "Leveraging cutting-edge AI technology, integrating full-chain business data, accurately identifying business performance growth bottlenecks, providing data-driven growth diagnosis.",
+      "highlights": ["Full-chain data", "AI technology", "Accurate diagnosis"]
     },
     {
       "icon": "CheckCircle2",
-      "title": "One-Stop Service",
-      "description": "From business registration and tax registration to daily financial agency and tax declaration, providing full-process one-stop services, allowing enterprises to save time and effort, focusing on core business.",
-      "highlights": ["Full-process service", "Time-saving", "Business focus"]
+      "title": "Full Scenario Adaptation",
+      "description": "Covering the full lifecycle growth needs of enterprises from startup to maturity, adapting to multiple industries and scenarios, providing personalized growth solutions.",
+      "highlights": ["Full lifecycle", "Multi-industry adaptation", "Personalized solutions"]
     },
     {
       "icon": "Cpu",
-      "title": "Free Trade Zone Policy Advantages",
-      "description": "Deeply understand various preferential policies of Hainan Free Trade Zone, helping enterprises reasonably utilize policy dividends to achieve tax optimization and cost reduction.",
-      "highlights": ["Policy advantages", "Tax optimization", "Cost reduction"]
+      "title": "Full-Cycle Empowerment",
+      "description": "Providing intelligent services throughout the entire process from growth diagnosis, strategy generation, execution implementation to effect iteration and accompaniment for results.",
+      "highlights": ["Full-process service", "Intelligent execution", "Continuous accompaniment"]
     },
     {
       "icon": "TrendingUp",
-      "title": "Efficient Response Service",
-      "description": "7×24 hours online consulting, quick response to customer needs, timely solve enterprise financial & tax problems, ensure compliant operation.",
-      "highlights": ["Quick response", "Timely solution", "Compliance guarantee"]
+      "title": "Data-Driven Decision Making",
+      "description": "Breaking the experience dependency of traditional growth models, making data-driven decisions to help enterprises achieve customer acquisition efficiency improvement, conversion chain optimization, and customer value deepening.",
+      "highlights": ["Data-driven", "Efficiency improvement", "Value deepening"]
     }
   ],
   "focusAreas": [
     {
-      "name": "Financial & Tax Consulting",
+      "name": "Growth Diagnosis",
       "icon": "TrendingUp",
-      "description": "Tax planning, financial analysis, cost control",
-      "color": "#8B2F39"
+      "description": "Accurately identify performance growth bottlenecks, data-driven analysis",
+      "color": "#2563EB"
     },
     {
-      "name": "Business Registration",
+      "name": "Strategy Generation",
       "icon": "Sparkles",
-      "description": "Company registration, change, cancellation one-stop service",
-      "color": "#6B4C7A"
+      "description": "AI intelligent generation of personalized growth strategies",
+      "color": "#7C3AED"
     },
     {
-      "name": "Financial Agency",
+      "name": "Execution Implementation",
       "icon": "FileText",
-      "description": "Bookkeeping, tax declaration, financial analysis, report preparation",
-      "color": "#C9A872"
+      "description": "Full-process execution implementation, ensuring effective strategy implementation",
+      "color": "#059669"
+    },
+    {
+      "name": "Effect Iteration",
+      "icon": "Zap",
+      "description": "Continuous optimization iteration, accompaniment for results",
+      "color": "#DC2626"
+    }
+  ],
+  "serviceModes": [
+    {
+      "name": "Light Consulting",
+      "description": "With solutions and all tools, quickly start growth",
+      "features": ["Complete growth solutions", "Professional tool support", "Quick implementation"]
+    },
+    {
+      "name": "Deep Accompaniment",
+      "description": "Get results for you, share revenue based on results",
+      "features": ["Full-process accompaniment", "Result-oriented", "Pay for performance"]
     }
   ],
   "team": {
-    "intro": "The company consists of senior financial & tax experts, certified public accountants, tax agents and business registration consultants. Team members have rich enterprise service experience and deep professional foundation, committed to providing professional and efficient one-stop services for enterprises.",
+    "intro": "We have a professional AI business growth team. Team members have rich business growth practical experience and deep AI technology foundation, committed to providing professional and efficient integrated growth solutions for enterprises.",
     "leadership": [
       {
-        "name": "Financial & Tax Consulting Team",
-        "nameEn": "Financial & Tax Consulting Team",
-        "title": "Tax Planning · Financial Analysis",
-        "titleEn": "Tax Planning",
-        "avatar": "/images/team/finance-expert.jpg",
-        "education": "Certified Public Accountant / Tax Agent",
-        "background": "10+ years of financial & tax consulting practice experience, proficient in tax planning, financial analysis, cost control",
+        "name": "Qu Yuebin",
+        "nameEn": "Qu Yuebin",
+        "title": "Main Contact",
+        "titleEn": "Main Contact",
+        "avatar": "/images/team/contact.jpg",
+        "education": "Business Growth Expert",
+        "background": "Focus on AI+ Business Growth solutions, with rich enterprise growth practical experience",
         "achievements": [
-          "Served 500+ enterprises in financial & tax consulting",
-          "Cumulative tax savings for enterprises exceeded 50 million yuan",
-          "Customer satisfaction over 98%"
+          "Served multi-industry enterprise growth consulting",
+          "Helped enterprises achieve significant performance improvement",
+          "Customer satisfaction continues to improve"
         ],
-        "expertise": ["Tax Planning", "Financial Analysis", "Cost Control", "Compliance Management"]
-      },
-      {
-        "name": "Business Registration Team",
-        "nameEn": "Business Registration Team",
-        "title": "Enterprise Registration · Change Services",
-        "titleEn": "Business Registration",
-        "avatar": "/images/team/business-expert.jpg",
-        "education": "Business Registration Professional Consultant",
-        "background": "Focus on Hainan Free Trade Zone enterprise registration, change, cancellation and other full-process services",
-        "achievements": [
-          "Cumulatively served 1000+ enterprise registrations",
-          "Average registration time shortened to 3 working days",
-          "100% registration success rate"
-        ],
-        "expertise": ["Business Registration", "Enterprise Change", "Cancellation Service", "Qualification Processing"]
-      },
-      {
-        "name": "Financial Agency Team",
-        "nameEn": "Financial Agency Team",
-        "title": "Bookkeeping · Tax Declaration",
-        "titleEn": "Financial Agency",
-        "avatar": "/images/team/accounting-expert.jpg",
-        "education": "Financial Agency Professional Team",
-        "background": "Long-term service to various enterprises, deep understanding of enterprise financial needs",
-        "achievements": [
-          "800+ bookkeeping enterprises",
-          "100% tax declaration accuracy",
-          "Helped enterprises improve compliance rate by 95%"
-        ],
-        "expertise": ["Bookkeeping", "Tax Declaration", "Report Preparation", "Financial Analysis"]
-      },
-      {
-        "name": "Customer Service Team",
-        "nameEn": "Customer Service Team",
-        "title": "Customer Service · Continuous Support",
-        "titleEn": "Customer Service",
-        "avatar": "/images/team/service-team.jpg",
-        "education": "Customer Service Expert",
-        "background": "Committed to creating professional, efficient and caring customer service experience",
-        "achievements": [
-          "Customer satisfaction over 96%",
-          "Average response time <2 hours",
-          "7×24 hours online service"
-        ],
-        "expertise": ["Customer Service", "Problem Solving", "Continuous Support", "Relationship Maintenance"]
+        "expertise": ["Growth Strategy", "Data-Driven", "AI Application", "Business Consulting"]
       }
     ],
     "teamSize": {
@@ -147,128 +120,129 @@
       "research": "10+",
       "aiAlgorithm": "5+",
       "advisors": {
-        "medical": "Senior Financial & Tax Consultant",
-        "power": "Free Trade Zone Policy Expert",
-        "design": "Enterprise Service Expert"
+        "medical": "AI Growth Expert",
+        "power": "Business Data Expert",
+        "design": "Growth Strategy Expert"
       }
     }
   },
   "caseStudies": [
     {
       "id": "case-01",
-      "title": "Free Trade Zone Enterprise Tax Planning Case",
-      "subtitle": "Reasonable use of policies to achieve tax optimization",
-      "category": "Tax Planning",
+      "title": "Full-Chain Growth Diagnosis Case",
+      "subtitle": "Data-driven, accurately identify growth bottlenecks",
+      "category": "Growth Diagnosis",
       "icon": "TrendingUp",
-      "color": "#8B2F39",
-      "technologies": ["Tax Planning", "Policy Utilization", "Cost Optimization"],
-      "painPoint": "After enterprises set up in Hainan Free Trade Zone, they have insufficient understanding of preferential policies, high tax burden, and lack professional tax planning guidance.",
+      "color": "#2563EB",
+      "technologies": ["Data Integration", "AI Analysis", "Growth Diagnosis"],
+      "painPoint": "Enterprises face performance growth bottlenecks, lack data-driven growth diagnosis tools, and cannot accurately identify problems.",
       "features": [
         {
-          "name": "Policy Analysis",
-          "description": "In-depth analysis of various tax preferential policies in Hainan Free Trade Zone, tailor-made tax planning solutions for enterprises"
+          "name": "Full-Chain Data Integration",
+          "description": "Integrate enterprise full-chain business data, build complete data view, provide data foundation for growth diagnosis"
         },
         {
-          "name": "Structure Optimization",
-          "description": "Optimize enterprise equity structure and business structure, reasonably utilize policy dividends, reduce comprehensive tax burden"
+          "name": "AI Intelligent Analysis",
+          "description": "Use cutting-edge AI technology to accurately identify enterprise performance growth bottlenecks and identify key problem points"
         },
         {
-          "name": "Compliance Guarantee",
-          "description": "Ensure all planning solutions comply with tax laws, avoid tax risks, guarantee compliant operation"
+          "name": "Diagnosis Report",
+          "description": "Provide detailed growth diagnosis report, clarify growth opportunities and optimization directions"
         }
       ],
-      "outcome": "Helped enterprises reduce comprehensive tax burden by 35%, cumulative tax savings exceeded 5 million yuan, while ensuring 100% compliant operation, receiving high recognition from customers.",
-      "image": "/images/case-tax-planning.webp"
+      "outcome": "Helped enterprises accurately identify growth bottlenecks, identify key optimization points, provide data support for subsequent growth strategy formulation, customer satisfaction significantly improved.",
+      "image": "/images/case-growth-diagnosis.webp"
     },
     {
       "id": "case-02",
-      "title": "New Enterprise One-Stop Service",
-      "subtitle": "Full-process service from registration to operation",
-      "category": "Enterprise Service",
+      "title": "AI Strategy Generation and Execution",
+      "subtitle": "Full-process service from strategy to implementation",
+      "category": "Strategy Execution",
       "icon": "CheckCircle2",
-      "color": "#6B4C7A",
-      "technologies": ["Business Registration", "Tax Registration", "Financial Agency"],
-      "painPoint": "New enterprises are unfamiliar with registration process, tax registration, financial agency and other links, need to visit multiple departments, time-consuming and laborious.",
+      "color": "#7C3AED",
+      "technologies": ["Strategy Generation", "Execution Implementation", "Effect Tracking"],
+      "painPoint": "Enterprises lack professional growth strategy formulation capabilities, and even with strategies, it is difficult to effectively implement them.",
       "features": [
         {
-          "name": "One-Stop Service",
-          "description": "Provide full-process one-stop services including business registration, tax registration, bank account opening, financial agency, etc."
+          "name": "Intelligent Strategy Generation",
+          "description": "Based on AI technology, combined with enterprise actual situation, generate personalized growth strategy solutions"
         },
         {
-          "name": "Quick Processing",
-          "description": "Familiar with processes of all links, average registration time shortened to 3 working days, greatly improving efficiency"
+          "name": "Execution Implementation Support",
+          "description": "Provide full-process execution implementation support to ensure effective strategy implementation"
         },
         {
-          "name": "Continuous Support",
-          "description": "After registration completion, provide continuous services such as financial agency and tax declaration to ensure compliant operation"
+          "name": "Effect Tracking Iteration",
+          "description": "Continuously track strategy execution effects, timely optimize iteration, ensure achievement of growth goals"
         }
       ],
-      "outcome": "Helped enterprises complete all registration procedures within 3 working days, saving 60% of time cost, 100% customer satisfaction, continued cooperation afterwards.",
-      "image": "/images/case-business-service.webp"
+      "outcome": "Helped enterprises achieve 30% customer acquisition efficiency improvement, 40% conversion chain optimization, 25% customer value deepening, achieving sustainable performance growth goals.",
+      "image": "/images/case-strategy-execution.webp"
     },
     {
       "id": "case-03",
-      "title": "Financial Agency Service Optimization",
-      "subtitle": "Improve financial management efficiency, reduce operating costs",
-      "category": "Financial Agency",
+      "title": "Deep Accompaniment Service",
+      "subtitle": "Share revenue based on results, accompaniment for results",
+      "category": "Deep Accompaniment",
       "icon": "Home",
-      "color": "#D4AF37",
-      "technologies": ["Bookkeeping", "Tax Declaration", "Financial Analysis"],
+      "color": "#059669",
+      "technologies": ["Full-Process Accompaniment", "Result-Oriented", "Pay for Performance"],
       "features": [
         {
-          "name": "Professional Bookkeeping",
-          "description": "Use professional financial software, standardize bookkeeping process, ensure accurate and timely accounting"
+          "name": "Full-Process Accompaniment",
+          "description": "From growth diagnosis to strategy execution, accompany enterprise growth throughout, ensure every step is correct"
         },
         {
-          "name": "Tax Declaration",
-          "description": "Complete various tax declarations timely and accurately, avoid tax risks, ensure compliant operation"
+          "name": "Result-Oriented",
+          "description": "Result-oriented, focus on helping enterprises achieve quantifiable performance growth"
         },
         {
-          "name": "Financial Analysis",
-          "description": "Regularly provide financial analysis reports to help enterprises understand operating conditions and optimize decisions"
+          "name": "Pay for Performance",
+          "description": "Share revenue based on results, share risks with enterprises, share growth results"
         }
       ],
-      "outcome": "Helped enterprises improve financial management efficiency by 50%, 100% tax declaration accuracy, 95% compliance rate improvement, 30% operating cost reduction.",
-      "image": "/images/case-accounting.webp"
+      "outcome": "Through deep accompaniment service, helped enterprises achieve more than 50% performance growth, 30% operational cost reduction, 40% renewal rate improvement, highly recognized by customers.",
+      "image": "/images/case-deep-accompaniment.webp"
     },
     {
       "id": "case-04",
-      "title": "Enterprise Change Service",
-      "subtitle": "Quickly and efficiently complete enterprise change procedures",
-      "category": "Enterprise Change",
+      "title": "Multi-Industry Adaptation Case",
+      "subtitle": "Full-scenario adaptation, personalized services",
+      "category": "Industry Adaptation",
       "icon": "FileText",
-      "color": "#C9A872",
-      "technologies": ["Business Change", "Tax Change", "Qualification Change"],
+      "color": "#DC2626",
+      "technologies": ["Multi-Industry Adaptation", "Scenario Customization", "Personalized Solutions"],
       "features": [
         {
-          "name": "Change Consulting",
-          "description": "Provide professional change solution consulting to help enterprises choose optimal change path"
+          "name": "Industry Adaptation",
+          "description": "Adapt to multiple industries and scenarios, provide customized growth solutions for enterprises in different industries"
         },
         {
-          "name": "Quick Processing",
-          "description": "Familiar with change process, quickly complete various change procedures such as business and tax"
+          "name": "Scenario Customization",
+          "description": "According to enterprise different development stages and scenario needs, provide personalized growth strategies"
         },
         {
-          "name": "Follow-up Service",
-          "description": "After change completion, provide follow-up financial and tax services to ensure compliant operation after change"
+          "name": "Continuous Optimization",
+          "description": "Continuously track industry trends, optimize growth solutions, ensure solutions are always effective"
         }
       ],
-      "outcome": "Average change time shortened to 5 working days, 100% change success rate, helping enterprises quickly adapt to business development needs.",
-      "image": "/images/case-change.webp"
+      "outcome": "Successfully served enterprises in multiple industries, covering full lifecycle growth needs from startup to maturity, customer satisfaction continues to improve.",
+      "image": "/images/case-multi-industry.webp"
     }
   ],
   "contact": {
-    "phone": "0898-XXXX-XXXX",
-    "email": "contact@hrwl-ai.com",
-    "emailSecondary": "info@hrwl-ai.com",
-    "address": "Haikou, Hainan, China",
-    "addressShort": "Haikou",
-    "wechat": "Please contact via email for WeChat",
+    "phone": "18511506521",
+    "email": "contact@aizengzhang.work",
+    "emailSecondary": "info@aizengzhang.work",
+    "address": "Chengdu, Sichuan, China",
+    "addressShort": "Chengdu",
+    "wechat": "Please contact via phone or email for WeChat",
     "workingHours": "Weekdays 9:00-18:00 (GMT+8)",
-    "responseTime": "Response within 2 business days",
+    "responseTime": "Response within 24 hours",
+    "contactPerson": "Qu Yuebin",
     "services": [
-      "Free financial & tax consulting",
-      "Get Free Trade Zone policy materials",
+      "Free growth diagnosis consulting",
+      "Get AI growth solution materials",
       "Schedule 1-on-1 consultation with professional consultants",
       "Learn about latest services and success cases"
     ]

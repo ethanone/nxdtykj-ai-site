@@ -16,33 +16,33 @@
   },
   "solutions": {
     "badge": "Core Service Capabilities",
-    "title": "Provide professional one-stop services for enterprises",
-    "titleHighlight": "Professional · Efficient · Reliable",
-    "subtitle": "Provide comprehensive enterprise services including financial & tax consulting, business registration, tax planning, financial agency, etc., helping enterprises operate compliantly, reduce costs and improve efficiency."
+    "title": "Provide AI+ Business Growth Integrated Solutions for Enterprises",
+    "titleHighlight": "Data-Driven · Intelligent Decision-Making · Full-Process Service",
+    "subtitle": "Provide intelligent services throughout the entire process from growth diagnosis, strategy generation, execution implementation to effect iteration and accompaniment for results, helping enterprises achieve sustainable performance growth."
   },
   "focusAreas": {
     "badge": "Core Service Areas",
     "title": "Our",
     "titleHighlight": "Expertise",
-    "subtitle": "Committed to providing professional financial & tax consulting and one-stop services for enterprises"
+    "subtitle": "Committed to providing professional AI+ Business Growth solutions for enterprises"
   },
   "dataSystem": {
     "badge": "Professional Service",
-    "title": "Based on Hainan Free Trade Zone policy advantages",
-    "titleHighlight": "Professional Service · Policy Advantages",
-    "subtitle": "Deeply understand various preferential policies of Hainan Free Trade Zone, combined with professional financial & tax knowledge, provide precise and reliable services for enterprises."
+    "title": "Based on cutting-edge AI technology and full-chain data insights",
+    "titleHighlight": "AI Technology · Data-Driven · Intelligent Growth",
+    "subtitle": "Leveraging cutting-edge artificial intelligence technology and full-chain business data insights, accurately identify business performance growth bottlenecks, provide data-driven growth solutions."
   },
   "about": {
     "badge": "About Us",
     "title": "Focus on",
-    "titleHighlight": "One-Stop Enterprise Services",
+    "titleHighlight": "AI+ Business Growth",
     "coreGoal": "Core Mission",
     "vision": "Vision"
   },
   "advantages": {
     "badge": "Core Advantages",
     "title": "Why Choose",
-    "titleHighlight": "Huirong Future"
+    "titleHighlight": "Us"
   },
   "team": {
     "badge": "Professional Team",
@@ -51,16 +51,16 @@
   },
   "testimonials": {
     "badge": "Client Cases",
-    "title": "Serving 500+ enterprises with professional services",
-    "titleHighlight": "Professional Service · Customer Trust",
-    "subtitle": "We are committed to helping enterprises operate compliantly, reduce costs and improve efficiency through professional financial & tax consulting and one-stop services."
+    "title": "AI Growth Solutions Serving Enterprises Across All Industries",
+    "titleHighlight": "AI Growth · Customer Trust",
+    "subtitle": "We are committed to helping enterprises achieve sustainable performance growth through AI technology and data-driven business growth solutions."
   },
   "cases": {
     "badge": "Success Cases",
     "title": "Practical Applications",
-    "titleHighlight": "of Enterprise Services",
-    "subtitle": "Deep integration of professional services and policy advantages, creating tangible value for customers",
-    "technologies": "Core Services",
+    "titleHighlight": "of AI Growth",
+    "subtitle": "Deep integration of AI technology and business growth, creating tangible value for customers",
+    "technologies": "Core Technologies",
     "painPoint": "Pain Point: ",
     "features": "Core Features",
     "outcome": "Project Results"
@@ -70,7 +70,7 @@
     "title": "Get in touch with our professional consultants",
     "titleHighlight": "Start with a free consultation",
     "titleSuffix": "",
-    "subtitle": "Apply for free financial & tax consulting, get Free Trade Zone policy materials, and learn about latest services and success cases.",
+    "subtitle": "Apply for free growth diagnosis consulting, get AI growth solution materials, and learn about latest services and success cases.",
     "phoneLabel": "Phone",
     "emailLabel": "Email",
     "addressLabel": "Address",
@@ -88,6 +88,6 @@
     "contact": "Contact Us",
     "allRightsReserved": "All rights reserved.",
     "foundedIn": "Founded in",
-    "focusOn": "Focus on One-Stop Enterprise Services"
+    "focusOn": "Focus on AI+ Business Growth Solutions"
   }
 }
