@@ -100,10 +100,10 @@ export default function HomePage() {
               className="flex items-center"
             >
               <Image
-                src="/images/logo.svg"
+                src="/images/logo.png"
                 alt={companyData.companyInfo.name}
-                width={160}
-                height={40}
+                width={598}
+                height={496}
                 className="h-8 w-auto"
                 priority
               />
